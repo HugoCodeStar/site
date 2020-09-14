@@ -155,7 +155,13 @@ print('Chiffre' , x,
 
 * Les caractères d'échapements permetent d'inséré des éléments non-textuelles dans un affichage de la fonction print.
 
-
+| Caractère | Description |
+| -- | -- |
+| `\n` | Saut de ligne
+| `\t` | Saut de tabulation horizontale
+| `\'` | Affiche un guillemet simple
+| `\"` | Affiche un guillemet double
+| `\\` | Affiche un backslash
 
 ## **Exercice 4**
 * Écrivez un script qui calcule un salaire hebdomadaire à partir d’un nombre d’heures travaillées et un salaire horaire.

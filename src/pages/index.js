@@ -72,7 +72,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/inf1256')}>
-              Get Started
+              Allons-y!
             </Link>
           </div>
         </div>
