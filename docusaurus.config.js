@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'HugoCodeStar',
+  tagline: 'Où l\'on apprend à coder.',
   url: 'https://HugoCodeStar.github.io/site',
   baseUrl: '/site/',
   onBrokenLinks: 'throw',
@@ -9,30 +9,43 @@ module.exports = {
   projectName: 'site', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'HugoCodeStar',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       items: [
-        {
+        /*{
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        },*/
         {
+          to: 'docs/inf1256',
+          label: 'INF1256',
+        },
+        //{to: 'blog', label: 'Blog', position: 'left'},
+        /*{
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
-        },
+        },*/
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
+          title: 'Cours',
+          items: [
+            {
+              label: 'INF1256',
+              to: 'docs/inf1256'
+            },
+          ],
+        },
+        /*{
           title: 'Docs',
           items: [
             {
@@ -44,25 +57,25 @@ module.exports = {
               to: 'docs/doc2/',
             },
           ],
-        },
+        },*/
         {
-          title: 'Community',
+          title: 'Communauté',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Mattermost UQAM',
+              href: 'https://mattermost.info.uqam.ca/',
             },
-            {
+            /*{
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
-            },
+            },*/
           ],
         },
-        {
+        /*{
           title: 'More',
           items: [
             {
@@ -74,9 +87,9 @@ module.exports = {
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
-        },
+        },*/
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Hugo Leblanc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,15 +98,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/HugoCodeStar/site/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/HugoCodeStar/site/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

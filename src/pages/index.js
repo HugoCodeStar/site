@@ -71,13 +71,13 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs/inf1256')}>
               Get Started
             </Link>
           </div>
         </div>
       </header>
-      <main>
+      {/* <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -89,7 +89,7 @@ function Home() {
             </div>
           </section>
         )}
-      </main>
+      </main> */}
     </Layout>
   );
 }
