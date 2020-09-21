@@ -13,7 +13,7 @@ L'examen final porte sur toute la matière vue dans le cours. Il est donc consei
 
 ### Exercice 1
 
-![table](/INF111/images/finalApp.png)
+![table](/inf111/images/finalApp.png)
 
 Reproduisez l'application suivante en Swing.
 L'application à les caractéristique suivantes:

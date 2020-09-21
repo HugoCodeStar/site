@@ -15,5 +15,5 @@ Le commentaire dans des blocs de commentaires avec une étoile additionnelle ser
 
 Des mots clés sont utilisés pour représenter des informations plus importantes.
 
-![table](/INF111/images/javadoc.png)
+![table](/inf111/images/javadoc.png)
 

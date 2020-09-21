@@ -12,7 +12,7 @@ Les principes de queue sont d'avoir une file dont l'ordre d'insertion est import
 Les listes chainées sont les implémentations typiques des queues. Elles permettent de faire l'ajout de nouvelles valeurs facilement (moins couteux que les `ArrayList`).
 
 
-![table](/INF111/images/linkedlist.png)
+![table](/inf111/images/linkedlist.png)
 
 ### Références
 [Documentation Queue](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html)
