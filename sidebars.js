@@ -1,3 +1,5 @@
+
+
 module.exports = {
   someSidebar: {
     Docusaurus: ['doc1', 'doc2', 'doc3'],
@@ -5,7 +7,7 @@ module.exports = {
   },
   INF1256Sidebar: [
     'inf1256/intro',
-    {Cours: ['inf1256/cours/cours1', 'inf1256/cours/cours2']},
-    {Atelier: ['inf1256/atelier/atelier1', 'inf1256/atelier/atelier2']},
+    {Cours: Array.from({length: 3}, (v,i) => i + 1).map( v => 'inf1256/cours/cours' + v)},
+    {Atelier: Array.from({length: 3}, (v,i) => i + 1).map( v => 'inf1256/atelier/atelier' + v)},
   ],
 };

@@ -1,6 +1,6 @@
 ---
 title: Programmes à faire de l'atelier 2
-sidebar_label: 1 - If, While, For
+sidebar_label: 2 - If, While, For
 ---
 
 Pour chaque numéro, on donne un example d'utilisation.
