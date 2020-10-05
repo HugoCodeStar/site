@@ -43,8 +43,8 @@ Tony Gaddis, “Starting out with Python”, 4th edition. Pearson, 2018.
 | 1     | 14 septembre | Programme, Instruction, Saisie\*, Affichage\* / Présentation du TP0 | 1,2      |
 | 2     | 21 septembre | If\*, Boucles\*                                                     | 3,4      |
 | 3     | 28 septembre | Fonctions*                                                          | 5        |
-| 4     | 5 octobre    | Fichier* / Présentation TP1                                         | 6        |
-| 5     | 19 octobre   | Liste et tuple*                                                     | 7        |
+| 4     | 5 octobre    | Liste et tuple* / Présentation TP1                                  | 7        |
+| 5     | 19 octobre   | Fichier*                                                            | 6        |
 | 6     | 26 octobre   | Chaine de caractères*                                               | 8        |
 | 7     | 2 novembre   | Examen Intra                                                        |          |
 | 8     | 9 novembre   | IDE et test unitaire / Présentation du TP2                          |          |
