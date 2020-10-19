@@ -47,8 +47,8 @@ Tony Gaddis, “Starting out with Python”, 4th edition. Pearson, 2018.
 | 5     | 19 octobre   | Fichier*                                                            | 6        |
 | 6     | 26 octobre   | Chaine de caractères*                                               | 8        |
 | 7     | 2 novembre   | Examen Intra                                                        |          |
-| 8     | 9 novembre   | IDE et test unitaire / Présentation du TP2                          |          |
-| 9     | 16 novembre  | Dictionnaires et set*                                               | 9        |
+| 8     | 9 novembre   | Dictionnaires et set* / Présentation du TP2                         | 9        |
+| 9     | 16 novembre  | IDE et test unitaire                                                |          |
 | 10    | 23 novembre  | Programmation orienté-objet*                                        | 10       |
 | 11    | 30 novembre  | Utilisation de librairies (pip) / Présentation TP3                  |          |
 | 12    | 7 décembre   | Visualisation de données                                            |          |
