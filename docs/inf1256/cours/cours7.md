@@ -81,7 +81,7 @@ for item in curly_set:
 * On trouve l'union de deux sets avec la méthode `union`.
 * On trouve l'intersection de deux sets avec la méthode `intersection`.
 * On trouve la différence de deux sets avec la méthode `difference`.
-* On trouve la différence symétrique (ceux exclusifs à chaque set) avec la méthode `symetric_difference`.
+* On trouve la différence symétrique (ceux exclusifs à chaque set) avec la méthode `symmetric_difference`.
 
 ```python
 set1 = set([1, 2, 3])
