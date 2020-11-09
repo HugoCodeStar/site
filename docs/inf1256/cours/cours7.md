@@ -20,6 +20,13 @@ encore_set = set('allo') # Le 'l' ne sera pas en 2 copies.
 dernier_set = set(['un', 'deux', 'trois']) # Contient chaque mot.
 ```
 
+* Il est aussi possible d'utiliser les accolades pour construire un `set`.
+
+```python
+curly_set = {'allo', 'salut', 'allo', 'bonjour'}
+print(curly_set) # Affiche {'salut', 'allo', 'bonjour'}
+```
+
 ## Accès au set
 
 * La taille du set peut être connue avec `len`.
@@ -60,6 +67,15 @@ if 2 in mon_set:
     print("Trouvé!")
 ```
 
+* La boucle `for` peut itérer sur un set. L'ordre des éléments ne peut pas être connu d'avance.
+
+```python
+curly_set = {'allo', 'salut', 'allo', 'bonjour'}
+
+for item in curly_set:
+  print(item)
+```
+
 ## Opération sur les sets
 
 * On trouve l'union de deux sets avec la méthode `union`.
@@ -98,6 +114,16 @@ if 'Bob' in telephone:
     print(telephone['Bob']) # Affiche '444-2222'
 
 print(len(telephone)) # Affiche 4
+```
+
+* La boucle `for` permet d'avoir les `key` du dictionnaire
+
+```python
+telephone = {'Marie':'444-1111', 'Bob':'444-2222', 'Alice':'444-3333'}
+
+for item in telephone:
+  print(item) # Affiche en ordre Marie, Bob, Alice
+  print(telephone[item]) # Affiche les numéro 444-1111, 444-2222, 444-3333
 ```
 
 ## Modification d'un dictionnaire
@@ -146,7 +172,7 @@ Mike Jones,mike@example.com,098-765-4321,321 Fake Avenue
 ## Module csv
 * Le module csv contient la fonctionnalité qui permet de lire un fichier csv et le convertir en collection de Python.
 
-```Python
+```python
 import csv
 
 # Avec reader on convertie en liste
