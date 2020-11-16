@@ -7,7 +7,7 @@ module.exports = {
   },
   INF1256Sidebar: [
     'inf1256/intro',
-    {Cours: Array.from({length: 7}, (v,i) => i + 1).map( v => 'inf1256/cours/cours' + v)},
+    {Cours: Array.from({length: 8}, (v,i) => i + 1).map( v => 'inf1256/cours/cours' + v)},
     {Atelier: Array.from({length: 6}, (v,i) => i + 1).map( v => 'inf1256/atelier/atelier' + v)},
   ],
 };
