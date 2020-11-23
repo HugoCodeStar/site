@@ -128,9 +128,9 @@ Chaque objet aura ses propres valeurs dans les attributs.
 ```python
 
 def main():
-    coin1 = coin.Coin()
-    coin2 = coin.Coin()
-    coin3 = coin.Coin()
+    coin1 = Coin()
+    coin2 = Coin()
+    coin3 = Coin()
 
     print('I have three coins with these sides up:')
     print(coin1.get_sideup())
