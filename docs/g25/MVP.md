@@ -40,7 +40,7 @@ L'implémentation du code utilisera une interface pour la vue pour augmenter le 
 ## Exemple d'un compteur avec MVP
 Voici un lien vers un dépôt d'un compteur avec l'architecture MVP:
 
-LINK HERE
+[Compteur MVP](https://git.dti.crosemont.quebec/420-g25-ro/Compteur-MVP)
 
 L'application est un simple compteur avec un interrupteur permettant de changer la direction du comptage.
 
