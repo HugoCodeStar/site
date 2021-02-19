@@ -10,4 +10,7 @@ module.exports = {
     {Cours: Array.from({length: 9}, (v,i) => i + 1).map( v => 'inf1256/cours/cours' + v)},
     {Atelier: Array.from({length: 6}, (v,i) => i + 1).concat(9).map( v => 'inf1256/atelier/atelier' + v)},
   ],
+  G25Sidebar: [
+    'g25/MVP',
+    ],
 };

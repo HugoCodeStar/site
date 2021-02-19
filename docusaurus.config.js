@@ -25,6 +25,10 @@ module.exports = {
           to: 'docs/inf1256',
           label: 'INF1256',
         },
+        {
+          to: 'docs/g25',
+          label: 'G25',
+        },
         //{to: 'blog', label: 'Blog', position: 'left'},
         /*{
           href: 'https://github.com/facebook/docusaurus',
@@ -43,8 +47,13 @@ module.exports = {
               label: 'INF1256',
               to: 'docs/inf1256'
             },
+            {
+              label: 'G25',
+              to: 'docs/g25'
+            },
           ],
         },
+        
         /*{
           title: 'Docs',
           items: [
