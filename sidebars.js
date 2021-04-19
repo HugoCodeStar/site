@@ -11,6 +11,6 @@ module.exports = {
     {Atelier: Array.from({length: 6}, (v,i) => i + 1).concat(9).map( v => 'inf1256/atelier/atelier' + v)},
   ],
   G25Sidebar: [
-    'g25/MVP', 'g25/debug', 'g25/log'
+    'g25/MVP', 'g25/debug', 'g25/log', 'g25/SQLite',
     ],
 };
