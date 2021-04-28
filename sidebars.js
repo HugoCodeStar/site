@@ -13,4 +13,8 @@ module.exports = {
   G25Sidebar: [
     'g25/MVP', 'g25/debug', 'g25/log', 'g25/SQLite',
     ],
+  INF135Sidebar: [
+    'inf135/intro',
+    {Cours: Array.from({length: 1}, (v,i) => i + 1).map( v => 'inf135/cours/cours' + v)},
+    ],
 };
