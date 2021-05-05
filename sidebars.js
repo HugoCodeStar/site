@@ -15,6 +15,6 @@ module.exports = {
     ],
   INF135Sidebar: [
     'inf135/intro',
-    {Cours: Array.from({length: 1}, (v,i) => i + 1).map( v => 'inf135/cours/cours' + v)},
+    {Cours: Array.from({length: 2}, (v,i) => i + 1).map( v => 'inf135/cours/cours' + v)},
     ],
 };
