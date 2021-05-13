@@ -1,0 +1,60 @@
+{
+  "title": "Micro aventure",
+  "chapters": [
+    {
+      "id": 1,
+      "description": "Bienvenue à la micro aventure. Ceci est le chapitre 1. Vous rencontrez un Bogue des Neiges. Qu'allez-vous faire?",
+      "choices": [
+        2,
+        3,
+        4
+      ],
+      "choices_description": [
+        "Combattre le Bogue des neiges",
+        "Vous sauver en courant",
+        "Siffler comme un épais"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Vous être courageux. Combattez le Bogue des Neiges.",
+      "combats": [
+        {
+          "enemy": "Bogue des Neiges",
+          "combatskill": 3,
+          "force": 2,
+          "endurance": 8
+        }
+      ],
+      "choices": [
+        5,
+        6
+      ],
+      "choices_description": [
+        "Si vous tuez le Bogue",
+        "Si vous êtes tué par le Bogue"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Couard! Le Bogue vous rattrape et vous fait griller avec des échallotes.",
+      "deadend": "Vous êtes mort"
+    },
+    {
+      "id": 4,
+      "description": "Le Bogue ne supporte pas vos sifflements qui lui font exploser sa tête visqueuse.",
+      "deadend": "Vous avez gagné!"
+    },
+    {
+      "id": 5,
+      "description": "Vous mourrez dans d'attroces douleurs",
+      "deadend": "Vous êtes mort"
+    },
+    {
+      "id": 6,
+      "description": "Vous tranchez la tête du Bogue d'un coup net.",
+      "deadend": "Vous avez gagné!"
+    }
+  ]
+}
+
