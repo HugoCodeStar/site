@@ -33,6 +33,10 @@ module.exports = {
           to: 'docs/inf135',
           label: 'INF135',
         },
+        {
+          to: 'docs/db4',
+          label: 'DB4',
+        },
         //{to: 'blog', label: 'Blog', position: 'left'},
         /*{
           href: 'https://github.com/facebook/docusaurus',
