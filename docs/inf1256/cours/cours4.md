@@ -17,7 +17,7 @@ sidebar_label: 4 - Listes et tuples
 ```python
 liste = [4, 6, 3, 5, 7]
 liste_noms = ['Bob', 'Marie', 'Aird']
-liste_mixte [3, True, 'ok']
+liste_mixte = [3, True, 'ok']
 liste_repeat = ['allo'] * 3 # Donne ['allo', 'allo', 'allo']
 liste_range = list(range(4)) # Donne [0, 1, 2, 3]
 liste_repet = [1, 2] * 3 # Donne [1, 2, 1, 2, 1, 2]
@@ -32,8 +32,9 @@ liste_repet = [1, 2] * 3 # Donne [1, 2, 1, 2, 1, 2]
 x = [3, 2, 5, 6, 7]
 print(x[1])
 
+print(x[2])
 x[2] = 4
-print(x[1])
+print(x[2])
 ```
 
 ## Exercice 1

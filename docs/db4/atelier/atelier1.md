@@ -231,7 +231,7 @@ Le nombre a regarder : 17
 
 # Fonctions
 
-Pour chacunes des présentations suivantes, écrivez la fonction qui correspond à la demande
+Pour chacunes des présentations suivantes, écrivez la fonction qui correspond à la demande.
 
 
 ## inverse_additif

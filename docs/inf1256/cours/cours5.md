@@ -109,14 +109,14 @@ file = open('mon_fichier.txt', 'r')
 line = file.readline()
 
 # Tant qu'il reste de l'information dans le fichier
-while line != ''
+while line != '':
     # Traite la ligne
     print(line)
 
     # Lit la prochaine ligne
     line = file.readline()
 
-line.close()
+file.close()
 ```
 
 ## Traitement en boucle d'un fichier

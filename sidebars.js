@@ -19,7 +19,7 @@ module.exports = {
     ],
   DB4Sidebar: [
     'db4/intro',
-    {Cours: Array.from({length: 1}, (v,i) => i + 1).map( v => 'db4/cours/cours' + v)},
-    {Atelier: Array.from({length: 1}, (v,i) => i + 1).map( v => 'db4/atelier/atelier' + v)},
+    {Cours: Array.from({length: 2}, (v,i) => i + 1).map( v => 'db4/cours/cours' + v)},
+    {Atelier: Array.from({length: 2}, (v,i) => i + 1).map( v => 'db4/atelier/atelier' + v)},
 ],
 };

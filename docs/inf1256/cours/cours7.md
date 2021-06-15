@@ -3,7 +3,6 @@ title: Sets, dictionnaires et format de fichiers de données
 sidebar_label: 7 - Set, dictionnaire, csv et JSON
 ---
 
-
 ## Set
 
 * Un `set` est une collection, semblable à une liste, mais avec la distinction que tous les éléments doivent être unique.
