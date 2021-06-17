@@ -1,5 +1,5 @@
 ---
-title: Programmes à faire de l'atelier 1
+title: Programmes à faire de l'atelier 2
 sidebar_label: 2 - Listes, fichiers et chaines de caractères
 ---
 
