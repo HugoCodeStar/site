@@ -4,6 +4,9 @@ sidebar_label: Intro
 slug: /db4
 ---
 
+# NOTE : OMNIVOX EST DOWN
+Omnivox semble indisponible. L'examen sera reporté de manière asynchrone.
+
 ## Présentation personnelle
 
 * Hugo Leblanc;
