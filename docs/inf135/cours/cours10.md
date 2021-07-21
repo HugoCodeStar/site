@@ -1,6 +1,6 @@
 ---
 title: Programmation orientée objet - méthodes
-sidebar_label: 9 - POO - Méthodes
+sidebar_label: 10 - POO - Méthodes
 ---
 
 
