@@ -1,6 +1,6 @@
 ---
 title: Programmation orientée objet
-sidebar_label: 9 - POO
+sidebar_label: 10 - POO
 ---
 
 ## Objectifs de la semaine
