@@ -37,19 +37,19 @@ Examen (Final)     |         35% | Semaine 15
 
 ## Liste de cours
 
-| Cours | Date        | Description                                                         | Chapitre |
-|-------|-------------|---------------------------------------------------------------------|----------|
-| 1     | 18 janvier  | Programme, Instruction, Saisie\*, Affichage\* / Présentation du TP0 | 1,2      |
-| 2     | 25 janvier  | If\*, Boucles\*                                                     | 3,4      |
-| 3     | 1er février | Fonctions*                                                          | 5        |
-| 4     | 8 février   | Liste et tuple* / Présentation TP1                                  | 7        |
-| 5     | 15 février  | Fichier*                                                            | 6        |
-| 6     | 22 février  | Chaine de caractères*                                               | 8        |
-| 7     | 8 mars      | Examen Intra                                                        |          |
-| 8     | 15 mars     | Dictionnaires et set* / Présentation du TP2                         | 9        |
-| 9     | 22 mars     | IDE et test unitaire                                                |          |
-| 10    | 29 mars     | Programmation orienté-objet*                                        | 10       |
-| 11    | 12 avril    | Utilisation de librairies (pip) / Présentation TP3                  |          |
-| 12    | 19 avril    | Analyse et exploitation de données*                                 |          |
-| 13    | 26 avril    | Interface Graphique                                                 |          |
-| 14    | 3 mai       | Examen Final                                                        |          |
+| Cours | Description                                                         | Chapitre |
+|-------|---------------------------------------------------------------------|----------|
+| 1     | Programme, Instruction, Saisie\*, Affichage\* / Présentation du TP0 | 1,2      |
+| 2     | If\*, Boucles\*                                                     | 3,4      |
+| 3     | Fonctions*                                                          | 5        |
+| 4     | Liste et tuple* / Présentation TP1                                  | 7        |
+| 5     | Fichier*                                                            | 6        |
+| 6     | Chaine de caractères*                                               | 8        |
+| 7     | Examen Intra                                                        |          |
+| 8     | Dictionnaires et set* / Présentation du TP2                         | 9        |
+| 9     | IDE et test unitaire                                                |          |
+| 10    | Programmation orienté-objet*                                        | 10       |
+| 11    | Utilisation de librairies (pip) / Présentation TP3                  |          |
+| 12    | Analyse et exploitation de données*                                 |          |
+| 13    | Interface Graphique                                                 |          |
+| 14    | Examen Final                                                        |          |
