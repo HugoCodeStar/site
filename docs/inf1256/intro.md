@@ -39,7 +39,7 @@ Examen (Final)     |         35% | Semaine 15
 
 | Cours | Description                                                         | Chapitre |
 |-------|---------------------------------------------------------------------|----------|
-| 1     | Programme, Instruction, Saisie\*, Affichage\* / Présentation du TP0 | 1,2      |
+| 1     | Programme, Instruction, Saisie\*, Affichage\*                       | 1,2      |
 | 2     | If\*, Boucles\*                                                     | 3,4      |
 | 3     | Fonctions*                                                          | 5        |
 | 4     | Liste et tuple* / Présentation TP1                                  | 7        |
