@@ -1,7 +1,7 @@
 ---
 title: Introduction
 sidebar_label: Intro
-slug: /inf1256
+slug: /inf1035
 ---
 
 ## Présentation 
@@ -50,6 +50,6 @@ Examen (Final)     |         35% | Semaine 15
 | 9     | 22 mars     | IDE et test unitaire                                                |          |
 | 10    | 29 mars     | Programmation orienté-objet*                                        | 10       |
 | 11    | 12 avril    | Utilisation de librairies (pip) / Présentation TP3                  |          |
-| 12    | 19 avril    | Visualisation de données                                            |          |
-| 13    | 26 avril    | Tour d'horizon (Machine Learning, Big Data, ?)                      |          |
+| 12    | 19 avril    | Analyse et exploitation de données*                                 |          |
+| 13    | 26 avril    | Interface Graphique                                                 |          |
 | 14    | 3 mai       | Examen Final                                                        |          |

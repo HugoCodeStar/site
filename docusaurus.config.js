@@ -1,7 +1,7 @@
 module.exports = {
   title: 'HugoCodeStar',
   tagline: 'Où l\'on apprend à coder.',
-  url: 'https://HugoCodeStar.github.io/site',
+  url: 'https://HugoCodeStar.github.io/',
   baseUrl: '/site/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -21,6 +21,10 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },*/
+        {
+          to: 'docs/inf1035',
+          label: 'INF1035',
+        },
         {
           to: 'docs/inf1256',
           label: 'INF1256',
@@ -51,6 +55,10 @@ module.exports = {
         {
           title: 'Cours',
           items: [
+            {
+              label: 'INF1035',
+              to: 'docs/inf1035'
+            },
             {
               label: 'INF1256',
               to: 'docs/inf1256'
