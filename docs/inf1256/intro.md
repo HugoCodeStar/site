@@ -30,10 +30,10 @@ Tony Gaddis, “Starting out with Python”, 4th edition. Pearson, 2018.
 Outil d'évaluation | Pondération | Échéance
 ------------------ | ----------: | --------
 Travail pratique 1 |         10% | Semaine 3 à 6
-Examen (Intra)     |         35% | Semaine 7
-Travail pratique 2 |         10% | Semaine 7 à 10
-Travail pratique 3 |         10% | Semaine 10 à 13
-Examen (Final)     |         35% | Semaine 15
+Examen (Intra)     |         30% | Semaine 7
+Travail pratique 2 |         15% | Semaine 7 à 10
+Travail pratique 3 |         15% | Semaine 10 à 13
+Examen (Final)     |         30% | Semaine 15
 
 ## Liste de cours
 
