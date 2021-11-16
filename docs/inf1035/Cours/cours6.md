@@ -1,6 +1,7 @@
 ---
 title: Chaines de caractères
 sidebar_label: 6 - Chaines de caractères
+sidebar_position: 6
 ---
 
 ## Chaines de caractères

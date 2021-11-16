@@ -1,6 +1,7 @@
 ---
 title: Programmation orientée-objet
 sidebar_label: 9 - POO
+sidebar_position: 9
 ---
 
 ## Programmation orientée-objet

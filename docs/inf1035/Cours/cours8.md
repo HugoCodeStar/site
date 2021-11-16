@@ -1,6 +1,7 @@
 ---
 title: Liste en compréhension, tests unitaires, environnement de développement
 sidebar_label: 8 - Liste, Test & IDE
+sidebar_position: 8
 ---
 
 ## Liste en compréhension

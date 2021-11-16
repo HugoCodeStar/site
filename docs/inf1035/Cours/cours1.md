@@ -1,6 +1,7 @@
 ---
 title: Programmation, instructions, affichage, saisie et variables
 sidebar_label: 1 - Bases
+sidebar_position: 1
 ---
 
 ## Programmation

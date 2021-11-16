@@ -1,6 +1,7 @@
 ---
 title: Fichiers et exceptions
 sidebar_label: 5 - Fichiers et exceptions
+sidebar_position: 5
 ---
 
 ## Introduction aux fichiers

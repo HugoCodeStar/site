@@ -1,6 +1,7 @@
 ---
 title: Fonctions
 sidebar_label: 3 - Fonctions
+sidebar_position: 3
 ---
 
 ## Fonctions

@@ -1,6 +1,7 @@
 ---
 title: Sets, dictionnaires et format de fichiers de données
 sidebar_label: 7 - Set, dictionnaire, csv et JSON
+sidebar_position: 7
 ---
 
 ## Set

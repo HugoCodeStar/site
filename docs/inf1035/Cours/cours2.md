@@ -1,6 +1,7 @@
 ---
 title: Structures de contrôles
 sidebar_label: 2 - If, While, For
+sidebar_position: 2
 ---
 
 ## Terminaison de ligne avec `print`

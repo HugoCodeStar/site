@@ -1,6 +1,7 @@
 ---
 title: Liste et tuples
 sidebar_label: 4 - Listes et tuples
+sidebar_position: 4
 ---
 
 ## Listes
