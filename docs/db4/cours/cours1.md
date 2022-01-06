@@ -12,25 +12,23 @@ sidebar_label: 1 - Bases
 ## Programmation
 * Language du cours : Python 3
 * Environement de dévelopment
-    * repl.it
+    * Google Collab https://colab.research.google.com/
     * PyCharm
     * Anaconda / Jupyter - https://www.anaconda.com/products/individual
-* Deux méthodes d'utilisation
-  * Interactive REPL (Read-Evaluate-Print-Loop)
-  * Scripts
 
-## Python REPL
-* Utile pour tester des concepts rapidement
-* Ne pas utiliser pour construire un programme
-* Affiche la réponse de chaque évaluation saisie et boucle pour un nouvelle saisie
+## Anaconda / Jupyter Notebook
+* Anaconda est un environnement de travail pour les sciences de la données.
+* L'application permet la gestion et configuration de plusieurs plateformes des scienses de la donnée basé sur Python, R et d'autres.
+* La majorité du travail en Python se fait à l'intérieur de Jupyter Notebooks qui permet de mélangé documentation, code et visualisation dans un seul fichier. Ce fichier à l'extension `.ipynb` pour `Interactive PYthon NoteBook`. Ce fichier peut être lu par une panoplie d'application.
+* Dans notre cas, Jupyter Labs est conseiller pour la session. Il existe aussi d'autres applications permettant de lire les Python notebook :
+    * PyCharm
+    * Datalore
+    * VS Code
+    * Jupyter Notebook (anciennce version de Jupyter Labs)
 
-## Scripts
-L'unité de base d'un programme en python est le script.
-
-* Fichier texte
-* Extension .py
-* Contient les instructions de notre programme
-* Exécuté par l'interpréteur de python de manière séquentielle
+# Markdown
+* Pour la documentation, la format Markdown est utilisé. Celui-ci utilise des balises pour avoir un formatage facile et conviviale qui est initiallement en format texte.
+* Veuillez vous référé à la [Documentation de Markdown](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html) pour l'utilisation des différentes balises du format.
 
 ## Affichage avec la fonction `print`
 * L'affichage de texte utilise la fonction `print` pour présenter une chaine de caractères dans la fenêtre de commande.
