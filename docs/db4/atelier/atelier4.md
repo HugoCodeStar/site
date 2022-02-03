@@ -45,6 +45,6 @@ Faites la visualisation du pourcentage de cas confirmé par tranche d'âge dans 
 
 # Remise
 
-* Date de remise - 1er juillet
+* Date de remise - dernière journée de cours
 * Emplacement de la remise - Léa - Devoir Python
 * Élément de la remise - Votre Notebook Python
