@@ -22,7 +22,7 @@ Objectifs:
 
 * Saisir un nombre comme entrée de la console.
 * Affichez le mot «tick» si le numéro est paire. Affichez le mot «tock» si le nombre est impair.
-* Astuce: n'oubliez pas que vous pouvez utiliser l'opérateur reste pour déterminer si un nombre est uniforme ou impair.
+* Astuce: n'oubliez pas que vous pouvez utiliser l'opérateur reste pour déterminer si un nombre est pair ou impair.
 
 # Question 3
 

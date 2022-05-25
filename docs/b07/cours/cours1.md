@@ -434,7 +434,7 @@ Faire attention, **la première case du tableau est la case 0**.
 
 ```c#
 // Parcourir les cases d'un tableau
-for (int i = 0; i < nombres.length; i++)
+for (int i = 0; i < nombres.Length; i++)
 {
     Console.WriteLine(nombres[i]);
 }
