@@ -55,7 +55,7 @@ Faire attention aux conventions suivantes:
 
 ### Types
 
-* Entier (Note pour ceux venant du C: pas de `unsigned`)
+* Entier
   * `byte`
   * `short`
   * `int`
