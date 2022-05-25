@@ -421,7 +421,7 @@ Un nouveau tableau est créé avec le `new`. Les braquettes carrées `[` `]` ser
 ```c#
 // Tableau de 10 cases de ints
 int[] nombres = new int[10];
-double[] nombresDirect = new int[] {45.4, -56.43, 34.6};
+double[] nombresDirect = new double[] {45.4, -56.43, 34.6};
 
 // L'initialisation peut utiliser une taille variable
 int taille = Convert.ToInt32(Console.ReadLine());
