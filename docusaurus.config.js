@@ -41,6 +41,10 @@ module.exports = {
           to: 'docs/db4',
           label: 'DB4',
         },
+        {
+          to: 'docs/b07',
+          label: 'B07',
+        },
         //{to: 'blog', label: 'Blog', position: 'left'},
         /*{
           href: 'https://github.com/facebook/docusaurus',
@@ -70,6 +74,10 @@ module.exports = {
             {
               label: 'INF135',
               to: 'docs/inf135'
+            },
+            {
+              label: 'B07',
+              to: 'docs/B07'
             },
           ],
         },
