@@ -299,3 +299,36 @@ class Rectangle
     public void SetHeight(float value) => _height = value;
 }
 ```
+
+### Utilisation d'un constructeur dans un autre
+
+Il est possible d'utiliser une constructeur dans un autre constructeur
+
+```c#
+class Score
+{
+    public string _name;
+    public int _points;
+    public int _level;
+
+    public Score() : this("Unknown", 0, 1) 
+    {
+    }
+
+    public Score(string name, int points, int level)
+    {
+        _name = name;
+        _points = points;
+        _level = level;
+    }
+}
+```
+
+### Omission du nom de la classe avec `new`
+
+Il est possible d'ommetre le nom de la classe avec l'utilisation du new avec la déclaration d'une variable de cette classe.
+
+```c#
+Score first = new();
+Score second = new("R2-D2", 12420, 15);
+```
