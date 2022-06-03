@@ -1,6 +1,6 @@
 ---
 title: Programmes à faire pour le cours 3
-sidebar_label: 3 - Properties & Static
+sidebar_label: 3 - Properties
 ---
 
 ## Question 1

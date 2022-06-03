@@ -1,3 +1,8 @@
+---
+title: Programmes à faire pour le cours 4
+sidebar_label: 4 - Static
+---
+
 ## Question 1
 
 À partir de la classe suivante :
