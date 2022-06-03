@@ -1,7 +1,7 @@
 ---
 title: Élément statique
-sidebar_label: 3 - Static
-sidebar_position: 3
+sidebar_label: 4 - Static
+sidebar_position: 4
 ---
 
 ## Static
