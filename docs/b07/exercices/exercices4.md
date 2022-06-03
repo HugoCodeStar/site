@@ -23,6 +23,12 @@ Ensuite dans une programme principale, créé un objet de type `Student` avec l'
 
 ## Question 2
 
+Nous voulons facilement créé certains types de flèches :
+
+* Elite Arrow, fait de métal, plastique, et 95 cm.
+* Beginner Arrow, fait de bois, plume d'oie et 75 cm.
+* Marksman Arrow, fait de métal, plume d'oie et 65 cm.
+
 Ajoutez à la classe Arror une méthode statique `public static Arrow CreateEliteArrow() {...}` pour chacun des trois types de flèches.
 
 Modifiez le programme principale pour que l'utilisateur puisse choisir un des trois type ou un type custom. Si un des trois types est spécifié, utilisé la méthode statique. Autrement, réutilisé le code créé précédemment.
