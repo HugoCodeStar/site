@@ -9,12 +9,6 @@ Modifiez votre classe Arrow pour utilisez des properties à la place des getter 
 
 ## Question 2
 
-Ajoutez à la classe Arror une méthode statique `public static Arrow CreateEliteArrow() {...}` pour chacun des trois types de flèches.
-
-Modifiez le programme principale pour que l'utilisateur puisse choisir un des trois type ou un type custom. Si un des trois types est spécifié, utilisé la méthode statique. Autrement, réutilisé le code créé précédemment.
-
-## Question 3
-
 Créez une classe `Point` qui permet de représenté une position dans une carte de deux dimensions. Chaque point est représenté par des coordonnées x et y sous la forme (x, y).
 
 Objectifs:
@@ -24,7 +18,7 @@ Objectifs:
 * Ajoutez un constructeur sans paramètre qui donne une point a (0,0).
 * Dans un programme principale, créé un point (2,3) et un point (-4, 0). Affichez les points dans la console sous la forme `(x, y)`. 
 
-## Question 4
+## Question 3
 
 Nous voulons créé une classe qui représente une porte qui peut être barré et sera débarré si un code est entré correctement. Voici une descriptions des caractéstique des portes :
 
