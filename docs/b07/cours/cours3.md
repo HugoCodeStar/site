@@ -1,6 +1,6 @@
 ---
-title: Propriétés et méthodes statiques
-sidebar_label: 3 - Props & Static
+title: Propriétés
+sidebar_label: 3 - Propriétés
 sidebar_position: 3
 ---
 

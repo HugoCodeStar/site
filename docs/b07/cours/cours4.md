@@ -1,3 +1,9 @@
+---
+title: Élément statique
+sidebar_label: 3 - Static
+sidebar_position: 3
+---
+
 ## Static
 
 Il est possible d'avoir des éléments statique à une classe qui existerons à l'extérieur des instances de la classe. Nous pourrons donc avoir des variables de classes et de méthodes statiques. Ces membres seront disponible dans les programmes qui implémente la classe.
@@ -35,7 +41,7 @@ public class Score
 Les méthodes statiques pourront être invoqués sans instances. Les méthodes statiques sont habituellement des méthodes d'aides qui seront utilisés contextuellement avec la classe sans avoir besoin d'instance de la classe.
 
 ```c#
-public   int CountForPlayer(string playerName, Score[] scores)
+public static int CountForPlayer(string playerName, Score[] scores)
 {
     int count = 0;
     foreach (Score score in scores)
