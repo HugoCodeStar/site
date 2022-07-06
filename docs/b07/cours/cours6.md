@@ -1,5 +1,5 @@
 ---
-title: Héritage et polymorphisme
+title: Interface
 sidebar_label: 6 - Interface
 sidebar_position: 6
 ---
