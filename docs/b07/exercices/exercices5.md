@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 5
 sidebar_label: 5 - Héritage & Polymorphisme
+sidebar_position: 5
 ---
 
 ## Question 1

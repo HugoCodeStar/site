@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 4
 sidebar_label: 4 - Static
+sidebar_position: 4
 ---
 
 ## Question 1

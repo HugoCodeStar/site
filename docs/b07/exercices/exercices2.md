@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 2
 sidebar_label: 2 - Orienté-objet
+sidebar_position: 2
 ---
 
 ## Question 1

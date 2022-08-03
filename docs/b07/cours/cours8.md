@@ -1,5 +1,5 @@
 ---
-title: Exception
+title: LINQ
 sidebar_label: 8 - Expression de requêtes
 sidebar_position: 8
 ---

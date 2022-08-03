@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 1
 sidebar_label: 1 - Bases
+sidebar_position: 1
 ---
 
 # Question 1

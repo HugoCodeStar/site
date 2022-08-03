@@ -1,11 +1,12 @@
 ---
 title: Programmes à faire pour le cours 7
 sidebar_label: 7 - Exception
+sidebar_position: 7
 ---
 
 ## Exercice 1
 
-Écrivez un programme d'un petit jeu de détection de nombre. Le progamme commence par choisir un nombre aléatoire en 0 et 100. Vous avez ensuite 10 essais pour tenter de trouver le nombre choisi par le progrmme. Pour chaque tentative, faite la saisie du nombre et indiquer si le nombre à trouver est plus grand ou plus petit que le nombre saisie.
+Écrivez un programme d'un petit jeu de détection de nombre. Le progamme commence par choisir un nombre aléatoire en 0 et 100. Vous avez ensuite 10 essais pour tenter de trouver le nombre choisi par le programme. Pour chaque tentative, faite la saisie du nombre et indiquer si le nombre à trouver est plus grand ou plus petit que le nombre saisie.
 
 
 ## Exercice 2

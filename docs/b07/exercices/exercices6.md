@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 6
 sidebar_label: 6 - Interface
+sidebar_position: 6
 ---
 
 ## Question 1

@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 3
 sidebar_label: 3 - Properties
+sidebar_position: 3
 ---
 
 ## Question 1

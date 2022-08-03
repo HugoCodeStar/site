@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 9
 sidebar_label: 9 - Entity Framework
+sidebar_position: 9
 ---
 
 

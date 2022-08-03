@@ -1,6 +1,7 @@
 ---
 title: Programmes à faire pour le cours 8
 sidebar_label: 8 - LINQ
+sidebar_position: 8
 ---
 
 
