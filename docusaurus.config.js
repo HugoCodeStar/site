@@ -45,6 +45,10 @@ module.exports = {
           to: 'docs/b07',
           label: 'B07',
         },
+        {
+          to: 'docs/inf5111',
+          label: 'INF5111',
+        },
         //{to: 'blog', label: 'Blog', position: 'left'},
         /*{
           href: 'https://github.com/facebook/docusaurus',
@@ -78,6 +82,10 @@ module.exports = {
             {
               label: 'B07',
               to: 'docs/B07'
+            },
+            {
+              label: 'INF5111',
+              to: 'docs/inf5111'
             },
           ],
         },
