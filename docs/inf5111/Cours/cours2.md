@@ -16,20 +16,19 @@ sidebar_label: 2 - Intro programmation
     * PyCharm
     * Anaconda / Jupyter - https://www.anaconda.com/products/individual
 
-## Anaconda / Jupyter Notebook
-* Anaconda est un environnement de travail pour les sciences de la données.
+## Anaconda / Jupyter Notebook / Google Collab
+* Les notebooks sont un environnement de travail pour les sciences de la données.
 * L'application permet la gestion et configuration de plusieurs plateformes des scienses de la donnée basé sur Python, R et d'autres.
-* La majorité du travail en Python se fait à l'intérieur de Jupyter Notebooks qui permet de mélangé documentation, code et visualisation dans un seul fichier. Ce fichier à l'extension `.ipynb` pour `Interactive PYthon NoteBook`. Ce fichier peut être lu par une panoplie d'application.
-* Dans notre cas, Jupyter Labs est conseiller pour la session. Il existe aussi d'autres applications permettant de lire les Python notebook :
+* La majorité du travail en Python se fait à l'intérieur de Notebooks qui permet de mélangé documentation, code et visualisation dans un seul fichier. Ce fichier à l'extension `.ipynb` pour `Interactive PYthon NoteBook`. Ce fichier peut être lu par une panoplie d'application.
+* Dans notre cas, Google Collab est conseiller pour la session. Celui-ci offre en environnement de notebook en infonuagique. Il existe aussi d'autres applications permettant de lire les Python notebook :
     * PyCharm
     * Datalore
     * VS Code
-    * Jupyter Notebook (anciennce version de Jupyter Labs)
+    * Jupyter Labs/ Notebook (anciennce version de Jupyter Labs)
 
 # Markdown
 * Pour la documentation, la format Markdown est utilisé. Celui-ci utilise des balises pour avoir un formatage facile et conviviale qui est initiallement en format texte.
 * Veuillez vous référé à la [Documentation de Markdown](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html) pour l'utilisation des différentes balises du format.
-
 
 
 ## Affichage avec la fonction `print`
