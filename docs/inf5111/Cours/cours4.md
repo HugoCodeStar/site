@@ -48,7 +48,7 @@ SELECT
 FROM
     table1
 INNER JOIN
-    table2 ON table1.id_common = t2.id_common;
+    table2 ON table1.id_common = table2.id_common;
 ```
 
 ### Left/Right join
@@ -64,7 +64,7 @@ SELECT
 FROM
     table1
 LEFT OUTER JOIN 
-    table2 ON table1.id_common = t2.id_common;
+    table2 ON table1.id_common = table2.id_common;
 WHERE -- On ajoute le WHERE si on veut soustraire de la table 1 
     table2.column is null;
 ```
@@ -82,7 +82,7 @@ SELECT
 FROM
     table1
 FULL JOIN 
-    table2 ON table1.id_common = t2.id_common;
+    table2 ON table1.id_common = t2.id_common
 WHERE -- On ajoute le WHERE si on veut soustraire des deux tables
     table1.column is null or table2.column is null;
 ```
