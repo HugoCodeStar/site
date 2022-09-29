@@ -36,12 +36,3 @@ avec le nom et prénom de l'utilisateur `Bonjour PRENOM NOM!`.
 
 ## Multiplie deux nombres
 Demande à l'utilisateur de saisir deux nombres et affiche le produit des deux nombres. L'affichage prends la forme `NOMBRE1 x NOMBRE2 = PRODUIT`.
-
-## NumPy base 1
-Écrivez un programme NumPy pour créer un tableau de 10 zéros, 10 uns, 10 cinq.
-
-## NumPy base 2
-Écrivez un programme NumPy pour créer un tableau des entiers de 30 à 70.
-
-## NumPy base 3
-Écrivez un programme NumPy pour créer un tableau de tous les entiers pairs de 30 à 70.

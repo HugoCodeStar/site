@@ -102,13 +102,15 @@ telephone = {'Marie':'444-1111', 'Bob':'444-2222', 'Alice':'444-3333'}
 ## Accès au dictionnaire
 * Les éléments du dictionnaire sont accéder avec les clés entre crochets (comme une liste).
 * Les opérateurs `in` et `not in` permettent de déterminer si une clé existe.
+* On accède aux éléments avec les `[]`.
 * La fonction `len` permet de déterminer le nombre d'éléments
 
 ```python
 telephone = {'Marie':'444-1111', 'Bob':'444-2222', 'Alice':'444-3333'}
+print(telephone['Marie'])
 print('Bob' in telephone)
 
-print(len(telephone)) # Affiche 4
+print(len(telephone)) # Affiche 3
 ```
 
 ## Modification d'un dictionnaire
