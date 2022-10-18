@@ -188,6 +188,6 @@ Utilisateurs/rôles pour délimiter les droits disponibles. Chiffrement (encrypt
 Présenter les opérations comme étant à l'intérieur d'une transaction qui permet d'assurer les propriétés ACID.
 
 * Atomicité - Que la transaction est accomplie au complet ou pas du tout.
-* Consistance - Que la transaction se termine avec la base de données dans un état valide.
+* Cohérence - Que la transaction se termine avec la base de données dans un état valide.
 * Isolation - Que la transaction soit isolée entre d'autres transactions qui travaillent sur les mêmes données pour faire le contrôle de concurrence.
 * Durabilité - Que la transaction soit assurée d'être gardée si elle a été complétée, même en cas de panne subséquente.
