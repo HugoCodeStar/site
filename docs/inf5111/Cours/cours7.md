@@ -1,5 +1,5 @@
 ---
-title: Fonctions & Copnversion de classe en ERD
+title: Fonctions & Conversion de classe en ERD
 sidebar_label: 7 - Fonctions & ERD
 ---
 
