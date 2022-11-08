@@ -1,6 +1,6 @@
 ---
-title: Fonctions
-sidebar_label: 7 - Fonctions
+title: Fonctions & Copnversion de classe en ERD
+sidebar_label: 7 - Fonctions & ERD
 ---
 
 ## Fonctions
@@ -118,3 +118,45 @@ y = 6
 x = passageParValeur(y,x)
 print('La valeur de x,y et z sont :', x, y, z)
 ~~~
+
+# Conversion des diagrammes de classe UML à des diagrammes d'entité relations (ERD)
+
+La conversion d'un diagramme de classe en ERD se fait en 3 étapes:
+
+1. Transformation des classes en entités.
+2. Ajout ou identification de clé primaires
+3. Transformation des associations
+
+## 1 - Transformation des classes en entités
+
+Les classes se transforment en entités et les types se transforment pour être conformes au type de donnée qui sera disponible avec la base de données utilisée. Les propriétés sont réduites à la liste suivante :
+
+* Nullable
+* Unique
+
+Si un des attributs avait une multiplicité (une liste de valeurs), celle-ci devient sa propre entité qui aura une association avec l'entité initiale.
+
+## 2 - Ajout ou l'identification de la clé primaire
+
+Une clé primaire doit être identifiée pour chacune des entités du ERD. Deux possibilités sont disponibles :
+
+* Si une information identifie uniquement chacune des instances de l'entité, celle-ci est désignée comme clé primaire (on la nomme clé primaire naturelle).
+* Si aucune information est identifiante, un nouvel attribut est ajouté pour représenter la clé primaire (nommé clé primaire artificielle).
+
+## 3 - Transformation des associations
+Les ERD ne peuvent que traiter deux types d'association :
+
+* 1 - 1 ou 0 - 1
+* 1 - n ou 0 - n
+
+Si les associations sont d'une autre multiplicité, elles seront normalisées à celles-ci. Dans les cas où nous avons une relation n-m, une conversion additionnelle sera nécessaire.
+
+### Ajout de clé étrangère
+
+Dans les associations, nous devons ajouter une clé étrangère pour que la base de données puisse faire le lien avec l'association représentée.
+
+### Transformation n-m
+
+Pour des associations n-m, il faut ajouter une table de jointure qui va s'insérer entre les deux tables de la relation n-m avec une relation 1-n entre chacune. La table de jointure va contenir des clés étrangères des deux autres tables.
+
+Dans le cas d'une classe d'association, c'est le même principe avec des attributs additionnels.
