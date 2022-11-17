@@ -41,7 +41,7 @@ import numpy as np
 date = np.array('2015-07-04', dtype=np.datetime64)
 display(date) # array(datetime.date(2015, 7, 4), dtype='datetime64[D]')
 
-display(date + np.arrange(12))
+display(date + np.arange(12))
 # array(['2015-07-04', '2015-07-05', '2015-07-06', '2015-07-07',
 #       '2015-07-08', '2015-07-09', '2015-07-10', '2015-07-11',
 #       '2015-07-12', '2015-07-13', '2015-07-14', '2015-07-15'], dtype='datetime64[D]')
