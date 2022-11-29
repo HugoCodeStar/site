@@ -1,6 +1,7 @@
 ---
 title: Introduction et présentation de la science des données
 sidebar_label: 1 - Intro
+sidebar_position: 1
 ---
 
 ## Introduction à la science des données

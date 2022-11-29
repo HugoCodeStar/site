@@ -1,6 +1,7 @@
 ---
 title: Structures de controles conditionnels et itératives
 sidebar_label: 6 - If, while et for
+sidebar_position: 6
 ---
 
 ## Opérations arithmétique

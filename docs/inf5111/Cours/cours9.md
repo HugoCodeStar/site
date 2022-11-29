@@ -1,6 +1,7 @@
 ---
 title: NoSQL - Documents & Key-value
 sidebar_label: 9 - Mongo & Redis
+sidebar_position: 9
 ---
 
 ## NoSQL - Les alternatives SQL

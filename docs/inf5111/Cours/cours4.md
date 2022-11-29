@@ -1,6 +1,7 @@
 ---
 title: Jointures/regroupement de tables & pandas
 sidebar_label: 4 - Jointures & pandas
+sidebar_position: 4
 ---
 
 ## Regroupement de données avec le `GROUP BY`

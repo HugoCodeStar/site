@@ -1,6 +1,7 @@
 ---
 title: Fondements de la programmation scientifique
 sidebar_label: 2 - Intro programmation
+sidebar_position: 2
 ---
 
 ## Programmation

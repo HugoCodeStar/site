@@ -1,6 +1,7 @@
 ---
 title: Introduction base de données
 sidebar_label: 3 - Intro BD
+sidebar_position: 3
 ---
 
 ## Introduction aux systèmes de gestions de bases de données (SGBD)

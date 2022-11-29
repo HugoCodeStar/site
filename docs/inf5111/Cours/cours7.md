@@ -1,6 +1,7 @@
 ---
 title: Fonctions & Conversion de classe en ERD
 sidebar_label: 7 - Fonctions & ERD
+sidebar_position: 7
 ---
 
 ## Fonctions

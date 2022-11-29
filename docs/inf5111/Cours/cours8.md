@@ -1,6 +1,7 @@
 ---
 title: Date, Visualisation et widgets
 sidebar_label: 8 - Visualisation
+sidebar_position: 8
 ---
 
 ## Date et temps
