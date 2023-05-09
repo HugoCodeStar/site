@@ -121,7 +121,7 @@ L'opération `LIKE` est spéciale car elle tente de faire la détection d'un mot
 'abc' LIKE 'c'      -- false
 ```
 
-### Trie de résultat par le `GROUP BY`
+### Trie de résultat par le `ORDER BY`
 
 Il est possible de trier les résultats avant l'affichage avec un `ORDER BY`. Il est ensuite possible de donné la liste des colonnes qui sera utilisé pour le trie. Les colonnes peuvent avoir l'ajout `DESC` si on veut un tri inverse.
 
