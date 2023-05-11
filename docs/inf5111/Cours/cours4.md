@@ -121,7 +121,7 @@ print(len(telephone)) # Affiche 3
 
 ```python
 telephone = {'Marie':'444-1111', 'Bob':'444-2222', 'Alice':'444-3333'}
-telehphone['Corinne'] = '444-1111' # Même valeur que Marie et c'est ok
+telephone['Corinne'] = '444-1111' # Même valeur que Marie et c'est ok
 
 del telephone['Bob']
 ```
