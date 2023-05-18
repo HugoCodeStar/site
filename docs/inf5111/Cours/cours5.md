@@ -161,6 +161,8 @@ L'engin de connexion doit avoir l'URL de la base de données. Vous pouvez avoir 
 ```python
 # Exemple de connection avec une base de donnée postgres
 engine1 = create_engine('postgresql://username:password@server/databasename')
+conn = engine1.connect()
+df = pd.read_sql_table('TableName', conn)
 ```
 
 ## Principes des SGBD
