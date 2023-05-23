@@ -113,10 +113,8 @@ print(nomVariable)
 
 ```python
 nomVariable = nomVariable  + 5
-print( nomVariable )
+print( nomVariable ) # affiche 109
 ```
-
-    149
 
 
 * Le contenu d'une variable existante est écrasé lors d'une assignation.
