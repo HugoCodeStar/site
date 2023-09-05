@@ -22,12 +22,8 @@ Le but de ce cours est d'explorer les différentes étapes du cycle. Nous utilis
 * La mise en place de base de données pour stocker les données de manières structurées.
 * L'analyse de données avec des programmes d'analyse
 * La visualisation des données ou des résultats d'analyse à l'aide de tableau de bord
-
-Voici quelques exemples de visualisation : 
-
-* [Vente d'avocats](https://avocado-analytics.herokuapp.com) - [Source de données](https://www.kaggle.com/datasets/neuromusic/avocado-prices)
-* [https://dash.gallery/dash-wind-streaming/] - [Code source](https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-wind-streaming)
 * [Liste d'exemple de visualisation](https://dash.gallery/Portal/)
+
 ### Rôles dans la science des données
 
 Il existe une panoplie de rôles entourant la science des données. Certain sont générale et d'autre très spécifique.
