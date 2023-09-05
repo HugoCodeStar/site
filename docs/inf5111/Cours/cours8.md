@@ -8,7 +8,7 @@ sidebar_position: 8
 
 Les données de date et d'heure se présentent sous plusieurs formes, dont nous discuterons ici :
 
-- * Les timestamps * font référence à des moments particuliers dans le temps (par exemple, le 4 juillet 2015 à 7h00).
+- Les *timestamps* font référence à des moments particuliers dans le temps (par exemple, le 4 juillet 2015 à 7h00).
 - *Intervalles de temps* (time intervals) et *périodes* (periods) font référence à une durée entre un début et une fin particuliers ; par exemple, l'année 2015. Les périodes font généralement référence à un cas particulier d'intervalles de temps dans lesquels chaque intervalle est de longueur uniforme et ne se chevauche pas (par exemple, des périodes de 24 heures comprenant des jours).
 - *Delta de temps* (timedelta) ou *durées* font référence à une durée exacte (par exemple, une durée de 22,56 secondes).
 
