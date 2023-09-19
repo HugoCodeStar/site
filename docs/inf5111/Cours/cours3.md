@@ -27,6 +27,8 @@ Les tables reçoivent des informations sous forme de ligne (enregistrement). Ceu
 
 La table est composée de colonnes (attribut). Chaque colonne est identifiée par un nom, un type de données et d'autre spécificité (contraintes).
 
+![Exemple Table](./table.gif)
+
 #### Clé primaire (Primary key `PK`)
 
 Chaque table aura une clé primaire qui sera utilisée pour désigner chaque ligne d'une table de manière unique. La clé primaire est habituellement une colonne ou plusieurs colonnes.
@@ -34,6 +36,8 @@ Chaque table aura une clé primaire qui sera utilisée pour désigner chaque lig
 #### Clé étrangère (Foreign key `FK`)
 
 Certaines colonnes d'une table peuvent être identifiées comme clé étrangère. Ceux-ci désignent la clé primaire d'une autre table. Cette identification permet de relier les informations d'une table à une autre.
+
+![Exemple Relation](./pkfk.png)
 
 ## Le langage SQL 
 
