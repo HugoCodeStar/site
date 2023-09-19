@@ -9,9 +9,10 @@ sidebar_label: 2 - Outils BD
 
 Installer un des outils suivants comme client de connection à la base de donné :
 
-* [DBeaver](https://dbeaver.com)
-* [pgAdmin] (https://www.pgadmin.org)
+* [pgAdmin](https://www.pgadmin.org)
     * Demander un compte pour la connection au pgAdmin du cours
+    * Information de connection sur la page Moodle du cours
+* [DBeaver](https://dbeaver.com)
 * [Datagrip](https://www.jetbrains.com/datagrip/)
 
 ### Postgres
