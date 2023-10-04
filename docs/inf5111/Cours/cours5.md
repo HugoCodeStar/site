@@ -145,7 +145,7 @@ results.to_csv('new_fichier.csv')
 Les connexions de pandas à des bases de données se font par l'intermédiaire de `SQLAlchemy`, une librairie de Python pour la connexion à des BD SQL. Il faut donc établir un engin de connexion qui sera utilisé par la fonction de lecture/écriture.
 
 ```python
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 
 # SQLite peut exister dans la mémoire avec :memory: ou on peut lire un fichier existant
 engine = create_engine("sqlite:///SQLiteBD.db")
@@ -153,7 +153,7 @@ engine = create_engine("sqlite:///SQLiteBD.db")
 df = pd.read_sql_table('TableName', engine)
 
 # Il est aussi possible de recevoir le résultat d'une requête spécifique
-df2 = pd.read_sql('select * from TableName where param > 0', engine)
+df2 = pd.read_sql(text('select * from TableName where param > 0'), engine)
 ```
 
 L'engin de connexion doit avoir l'URL de la base de données. Vous pouvez avoir la liste des [connexions disponible ici](https://docs.sqlalchemy.org/en/14/core/engines.html#database-urls).
