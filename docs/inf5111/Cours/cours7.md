@@ -152,6 +152,11 @@ Les ERD ne peuvent que traiter deux types d'association :
 
 Si les associations sont d'une autre multiplicité, elles seront normalisées à celles-ci. Dans les cas où nous avons une relation n-m, une conversion additionnelle sera nécessaire.
 
+### Exemple de transformation de 1-n
+
+![](erd/concept1.png)
+![](erd/erd1.png)
+
 ### Ajout de clé étrangère
 
 Dans les associations, nous devons ajouter une clé étrangère pour que la base de données puisse faire le lien avec l'association représentée.
@@ -161,3 +166,8 @@ Dans les associations, nous devons ajouter une clé étrangère pour que la base
 Pour des associations n-m, il faut ajouter une table de jointure qui va s'insérer entre les deux tables de la relation n-m avec une relation 1-n entre chacune. La table de jointure va contenir des clés étrangères des deux autres tables.
 
 Dans le cas d'une classe d'association, c'est le même principe avec des attributs additionnels.
+
+### Exemple de transformation de n-m
+
+![](erd/concept2.png)
+![](erd/erd2.png)
