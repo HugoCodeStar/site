@@ -266,7 +266,7 @@ def f(x, y):
 
 # La méthode interact reçoit la fonction et on lui envoie les paramètres possible
 
-interact(f, x=10)
+interact(f, x=10, y=5)
 ```
 
 En fournissant une valeur initiale, un contrôle est automatiquement généré. Le type de données envoyées définit le contrôle créé.
