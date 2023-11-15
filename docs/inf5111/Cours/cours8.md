@@ -290,6 +290,7 @@ def f(m, b):
     x = np.linspace(-10, 10, num=1000)
     plt.plot(x, m * x + b)
     plt.ylim(-5, 5)
+    plt.show()
 
 
 interact(f, m=(-2.0, 2.0), b=(-3, 3, 0.5))
