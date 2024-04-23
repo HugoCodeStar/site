@@ -116,6 +116,12 @@ nomVariable = nomVariable  + 5
 print( nomVariable ) # affiche 109
 ```
 
+```python
+# Si la variable n'a qu'une opération,
+# il existe une version raccourci de l'assignation
+x += 5 # Même instruction que x = x + 5
+```
+
 
 * Le contenu d'une variable existante est écrasé lors d'une assignation.
 
