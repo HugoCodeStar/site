@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhugo_code_star_site=self.webpackChunkhugo_code_star_site||[]).push([[2080],{5993:s=>{s.exports=JSON.parse('{"allTagsPath":"/site/blog/tags","slug":"/site/blog/tags/hola","name":"hola","count":1,"permalink":"/site/blog/tags/hola"}')}}]);
