@@ -13,7 +13,7 @@ La science des données (Data science) est un nouveau domaine qui étudie de gra
 * Détermination des requis : Étudiez avec le client les problématiques à résoudre.
 * Minage (Data Mining) : Regroupez les sources de données pertinentes pour le projet.
 * Filtrage (Data Cleaning) : Inspectez et travaillez sur les données pour ne pas avoir de données incongrues, manquantes ou extrêmes.
-* Exploration (Data Exloration) : L'analyse des données avec des statistiques, apprentissage machine, etc.
+* Exploration (Data Exploration) : L'analyse des données avec des statistiques, apprentissage machine, etc.
 * Visualisation : La présentation des données sous forme palpable (graphiques, rapport) pour prise de décision et réponse à la problématique.
 
 Le but de ce cours est d'explorer les différentes étapes du cycle. Nous utiliserons un langage de programmation (Python) pour mettre en application les étapes précédentes. Nous regarderons donc :
