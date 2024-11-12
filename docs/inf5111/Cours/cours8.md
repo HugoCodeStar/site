@@ -275,9 +275,9 @@ Il est aussi possible de fournir les configurations du contrôle.
 
 ```python
 # Création d'un wigdet (spécifiquatin plus tards)
-mywidget = widgets.IntSlider(min=-10, max=30, step=1, value=10)
+myWidget = widgets.IntSlider(min=-10, max=30, step=1, value=10)
 
-interact(f, x=mywidget)
+display(myWidget)
 ```
 #### Exemple avec un graphique interactif
 
