@@ -228,8 +228,8 @@ print(salaireHebdomadaireNet)
 ```python
 x = 3
 chaine = 'allo'
-print('Chiffre: ', x)
-print('Chaine: ', chaine)
+print('Chiffre:', x)
+print('Chaine:', chaine)
 print('Chiffre' , x, 
   'et chaine', chaine)
 ```
