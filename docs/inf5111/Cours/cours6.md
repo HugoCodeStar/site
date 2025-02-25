@@ -168,16 +168,16 @@ Les opérations arithmétiques sur des valeurs d'un dataframe sont sur chaque é
 Les méthodes `loc` et `iloc` permettent de sélectionner des lignes ou des colonnes avec des conditions. `loc` permet d'utiliser les étiquettes des lignes et colonne ou des conditions (voir exemple 3) et `iloc` travaille sur les numéroes de lignes et colonnes.
 
 ## Exemple 3
-* Écrivez un script qui contient un datafram avec l’âge d’utilisateur et modifié le dataframe pour indiquer si les utilisateurs ont droit à un tarif réduit. Le tarif réduit est disponible pour les personnes d’âge mineur (plus petit que 18) ou d’âge d’or (plus grand que 60). Affichez ensuite la liste des nom des personnes qui sont éligible au tarif réduit.
+* Écrivez un script qui contient un dataframe avec l’âge d’utilisateur et modifié le dataframe pour indiquer si les utilisateurs ont droit à un tarif réduit. Le tarif réduit est disponible pour les personnes d’âge mineur (plus petit que 18) ou d’âge d’or (plus grand que 60). Affichez ensuite la liste des nom des personnes qui sont éligible au tarif réduit.
 
 ```python
 import pandas as pd
+import numpy as np
 
-df = pd.DataFrame({'nom':['Bob', 'Anne', 'Alex'], 'age':[16, 76, 45]})
+df = pd.DataFrame({'nom': ['Bob', 'Anne', 'Alex'], 'age': [16, 76, 45]})
 df['tarif_reduit'] = False
 
-# Le | permet de faire un "or" sur chacun des éléments avec Pandas
-df['tarif_reduit'] = (df['age'] < 18) | (df['age'] > 60)
+df['tarif_reduit'] = np.logical_or(df['age'] < 18, df['age'] > 60)
 
 display(df)
 
@@ -185,8 +185,7 @@ noms_reduit = df[df['tarif_reduit'] == True]['nom'].values
 # Ou avec loc
 noms_reduitv2 = df.loc[df['tarif_reduit'] == True, 'nom']
 
-
 for nom in noms_reduit:
-  print(nom)
+    print(nom)
 
 ```
