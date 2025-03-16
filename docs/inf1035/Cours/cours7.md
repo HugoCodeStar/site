@@ -230,3 +230,109 @@ with open('iris.json', newline='') as jsonfile:
 info = json.loads('{"name":"mkyong.com","messages":["msg 1","msg 2","msg 3"],"age":100}')
 print(info)
 ```
+
+## Fichier Excel
+
+Excel est un tableur qui permet d'avoir des informations dans des feuilles de calculs qui sont ensuite séparées par des cellules identifiées par une ligne et une colonne.
+
+## Fichier SQLite
+
+* [SQLite](https://sqlite.org/index.html) est une implémentation d'une base de données SQL à l'intérieur d'un fichier.
+* Cette implémentation est une version extrêmement simplifiée de ce que nous donne une SGBD mais permet de facilement transmettre de l'information sous forme de tables.
+
+### Types des colonnes
+
+* NULL - Valeur nulle.
+* INTEGER - Entier signé.
+* REAL - Valeur flottante.
+* TEXT - Texte.
+* BLOB - Donnée indéfinie.
+
+## Requêtes web vers des API REST
+
+* Une méthode courante d'acquisition de données est l'utilisation d'API (Application Programming Interface) de type REST.
+* Cette méthode permet de faire une requête à un site web avec des paramètres donnés et de recevoir une réponse en JSON.
+
+#### Librairie requests
+
+* Pour faire des requêtes WEB avec python, la librairie [request](https://docs.python-requests.org/en/master/) est utilisée.
+
+```python
+# import requests module
+import requests
+  
+# Making a get request
+response = requests.get('https://api.github.com')
+  
+# print response
+print(response)
+  
+# print json content
+print(response.json())
+```
+
+#### Les requêtes web et les règles du REST
+
+* Le principe des requêtes REST est d'avoir les paramètres dans l'URL qui est utilisée pour faire la requête.
+* Le chemin de l'application permet de recevoir seulement l'information voulue.
+
+#### Exemple avec JSONPlaceholder
+
+* [JSONPlaceholder](https://jsonplaceholder.typicode.com/) est un site simple avec un API REST qui peut être utilisé pour tester nos requêtes.
+
+#### Routes
+
+* Les différents chemins sont nommés routes et ceux-ci font partie d'une arborescence.
+* Par exemple, JSONPlaceholder à les routes suivantes :
+    * `/posts` vers tous les articles sauvegardés
+    * `/posts/1` le nombre 1 permet de sélectionner un article en particulier
+    * `/posts/1/comments` la continuation de la route avec `comments` permet d'aller chercher les commentaires de l'article spécifié.
+
+## Extraction de données avec pandas
+
+[Référence](https://pandas.pydata.org/docs/user_guide/io.html#io)
+
+Les fonctions suivantes sont disponibles pour lecture/écriture de fichiers externe :
+
+* CSV - `read_csv` / `to_csv`
+* JSON - `read_json` / `to_json`
+* Excel - `read_excel` / `to_excel`
+* SQL - `read_sql` / `to_sql`
+
+Chaque fonction à ses propres options pour configurer les situations particulières entourant le type de fichiers. L'utilisation habituelle ressemble à :
+
+```python
+# Extraction du DataFrame
+df = read_csv('fichier.csv')
+
+# Transformation des données ou analyse
+results = df.describe()
+
+# Chargement des données transformé
+results.to_csv('new_fichier.csv')
+```
+
+### Connexion à des bases de données SQL / SQLite
+
+Les connexions de pandas à des bases de données se font par l'intermédiaire de `SQLAlchemy`, une librairie de Python pour la connexion à des BD SQL. Il faut donc établir un engin de connexion qui sera utilisé par la fonction de lecture/écriture.
+
+```python
+from sqlalchemy import create_engine, text
+
+# SQLite peut exister dans la mémoire avec :memory: ou on peut lire un fichier existant
+engine = create_engine("sqlite:///SQLiteBD.db")
+
+df = pd.read_sql_table('TableName', engine)
+
+# Il est aussi possible de recevoir le résultat d'une requête spécifique
+df2 = pd.read_sql(text('select * from TableName where param > 0'), engine)
+```
+
+L'engin de connexion doit avoir l'URL de la base de données. Vous pouvez avoir la liste des [connexions disponible ici](https://docs.sqlalchemy.org/en/14/core/engines.html#database-urls).
+
+```python
+# Exemple de connection avec une base de donnée postgres
+engine1 = create_engine('postgresql://username:password@server/databasename')
+conn = engine1.connect()
+df = pd.read_sql_table('TableName', conn)
+```
