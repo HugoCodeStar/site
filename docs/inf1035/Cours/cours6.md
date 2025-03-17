@@ -1,6 +1,6 @@
 ---
 title: Chaines de caractères
-sidebar_label: 6 - 6 - String et pandas
+sidebar_label: 6 - String et pandas
 sidebar_position: 6
 ---
 
