@@ -312,6 +312,56 @@ results = df.describe()
 results.to_csv('new_fichier.csv')
 ```
 
+## Date et temps
+
+Les données de date et d'heure se présentent sous plusieurs formes, dont nous discuterons ici :
+
+- Les *timestamps* font référence à des moments particuliers dans le temps (par exemple, le 4 juillet 2015 à 7h00).
+- *Intervalles de temps* (time intervals) et *périodes* (periods) font référence à une durée entre un début et une fin particuliers ; par exemple, l'année 2015. Les périodes font généralement référence à un cas particulier d'intervalles de temps dans lesquels chaque intervalle est de longueur uniforme et ne se chevauche pas (par exemple, des périodes de 24 heures comprenant des jours).
+- *Delta de temps* (timedelta) ou *durées* font référence à une durée exacte (par exemple, une durée de 22,56 secondes).
+
+### Les modules `datetime` et `dateutil`
+
+Les modules `datetime` et `dateutil` permettent de créé des objets représentant les temps et date mentionnée plus haut.
+
+```python
+from datetime import datetime
+simpledate = datetime(year=2015, month=7, day=4)
+```
+
+[Documentation de `datetime`](https://docs.python.org/3/library/datetime.html)
+
+Le `dateutil` contient des utilitaires pour facilité l'utilisation de date.
+
+```python
+from dateutil import parser
+simpledate = parser.parse("4th of July, 2015")
+```
+
+[Documentation de `dateutil`](https://dateutil.readthedocs.io/en/stable/)
+
+Les datetime sont intéressants pour une représentation facile des dates, mais ça ne fonctionne pas facilement pour une liste ou un range.
+
+### Numpy et `datetime64`
+Pour pallier à la situation, NumPy à incorporer le type `datetime64` pour pouvoir mieux manier les dates pour représentation en index ou comme liste. Il est donc possible de faire une date et de le travailler comme un tableau.
+
+```python
+import numpy as np
+date = np.array('2015-07-04', dtype=np.datetime64)
+display(date) # array(datetime.date(2015, 7, 4), dtype='datetime64[D]')
+
+display(date + np.arange(12))
+# array(['2015-07-04', '2015-07-05', '2015-07-06', '2015-07-07',
+#       '2015-07-08', '2015-07-09', '2015-07-10', '2015-07-11',
+#       '2015-07-12', '2015-07-13', '2015-07-14', '2015-07-15'], dtype='datetime64[D]')
+```
+
+Les `datetimes64` sont aussi capable de parsing par défaut.
+
+```python
+np.datetime64('2015-07-04')
+```
+
 ### Connexion à des bases de données SQL / SQLite
 
 Les connexions de pandas à des bases de données se font par l'intermédiaire de `SQLAlchemy`, une librairie de Python pour la connexion à des BD SQL. Il faut donc établir un engin de connexion qui sera utilisé par la fonction de lecture/écriture.
