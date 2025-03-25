@@ -1,11 +1,33 @@
-# Fréquences de nombres aléatoires
-Ecrivez un programme qui génère 100 nombres aléatoires entre 1 et 10 (la fonction randint du module random permet de faire la génération de nombre aléatoires). Le programme doit stocker la fréquence de chaque nombre généré dans un dictionnaire avec le nombre comme clé et le nombre de fois où il s'est produit comme valeur. Par exemple, si le programme génère le nombre 6 un total de 11 fois, le dictionnaire contiendra une clé de 6 avec une valeur associée de 11. Une fois tous les nombres générés, affichez des informations sur la fréquence de chaque nombre.
+---
+title: Programmes à faire de l'atelier 7
+sidebar_label: 7 - Fichiers et datetime
+---
 
-# Mots uniques
-Écrivez un programme qui ouvre un fichier texte spécifié, puis affiche une liste de tous les mots uniques trouvés dans le fichier.
-Astuce : Stockez chaque mot comme un élément d'un ensemble.
+## Exercice : Lecture d’un fichier CSV et manipulation de dates
 
-# Gagnants de la Série mondiale
-Vous trouverez avec les exercices un fichier texte nommé WorldSeriesWinners.txt . Ce fichier contient une liste chronologique des équipes gagnantes des World Series de 1903 à 2009. La première ligne du fichier est le nom de l'équipe qui a gagné en 1903, et la dernière ligne est le nom de l'équipe qui a gagné en 2009. (Notez que les World Series n'ont pas été jouées en 1904 ou 1994. Il y a des entrées dans le fichier qui l'indiquent.)
-Écrivez un programme qui lit ce fichier et crée un dictionnaire dans lequel les clés sont les noms des équipes, et la valeur associée à chaque clé est le nombre de fois que l'équipe a remporté les World Series. Le programme devrait également créer un dictionnaire dans lequel les clés sont les années, et la valeur associée à chaque clé est le nom de l'équipe qui a gagné cette année.
-Le programme devrait demander à l'utilisateur une année comprise entre 1903 et 2009. Il devrait ensuite afficher le nom de l'équipe qui a remporté les World Series cette année-là, et le nombre de fois que cette équipe a remporté les World Series.
+Vous disposez d’un fichier CSV nommé **observations.csv** qui contient des données horaires de température dans différentes villes. Le fichier se présente ainsi :
+
+```csv
+date_observation,temperature,station
+2023-01-15 08:30:00,12.5,Paris
+2023-01-15 12:00:00,14.0,Paris
+2023-01-15 08:40:00,11.7,Lyon
+2023-01-16 00:00:00,9.2,Lyon
+2023-02-01 14:15:00,6.4,Lille
+2023-02-03 09:50:00,5.0,Lille
+```
+
+**Consignes** :  
+1. **Importer** ce fichier CSV dans un DataFrame Pandas nommé `df_observations`.  
+2. **Convertir** la colonne `date_observation` en type datetime.  
+3. **Extraire** :  
+   - l’année d’observation (créez une colonne `annee`),  
+   - le mois d’observation (créez une colonne `mois`),  
+   - l’heure (créez une colonne `heure`).  
+4. **Filtrer** le DataFrame pour n’afficher que les observations ayant une température supérieure à 10 degrés.  
+5. **Trier** les observations par date d’observation (ordre croissant).  
+6. **Avancée**
+   - Calculez la **température moyenne** par station et par mois.  
+   - Exportez ce résultat dans un **nouveau fichier CSV** (par exemple `moyennes_par_station.csv`).  
+
+*Conseil* : Vous pouvez utiliser la fonction `pd.to_datetime` pour convertir la colonne en datetime, puis accéder aux attributs comme `df_observations['date_observation'].dt.year`, etc.  
