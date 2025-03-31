@@ -1,6 +1,6 @@
 ---
 title: Application graphique avec tkinker
-sidebar_label: 11 - Application graphique
+sidebar_label: X3 - Application graphique
 sidebar_position: 11
 ---
 
