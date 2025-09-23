@@ -434,7 +434,7 @@ print(x) # Affiche [2, 3, 7, 10]
 
 
 ## Tuple
-* Le tulpe est très sembable à une liste. La différence fondamental est que le tuple est immuable. Il ne peux pas être modifier après sa création. Les tuples utilisent des parenthèses à la place de crochet carrés des listes à leurs créations.
+* Le tuple est très sembable à une liste. La différence fondamental est que le tuple est immuable. Il ne peux pas être modifier après sa création. Les tuples utilisent des parenthèses à la place de crochet carrés des listes à leurs créations.
 
 
 ```python
