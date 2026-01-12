@@ -4,6 +4,52 @@ sidebar_label: 3 - Fonctions
 sidebar_position: 3
 ---
 
+# Appel de méthodes et de fonctions
+
+* Les fonctions (comme `print` et `input`) prennent des paramètres d'entrés pour s'exécuter correctement
+* Les paramètres sont délimités par des virgules et chaque paramètre sont des expressions (comme vue durant les assignations
+* Certaines fonctions sont importées à partir de librairies
+
+* Certains éléments (comme les listes que nous allons voir) sont des objets sauvegardé dans des variables.
+* Les objets sont un mélange de valeurs (propriétés) et fonctions (méthodes).
+* On accède aux éléments de l'objet avec le `.`. Nous verrons sont utilisation avec les listes et autres objets.
+
+### Paramètres nommés
+Certains appels ont des paramètres nommées qui permettent d'avoir des éléments facultatifs à l'appel. Le nom du paramètre nommé est suivi d'un `=` et de la valeur voulu. Les paramètres nommées sont toujours après les paramètres normaux et leurs ordres n'est pas important.
+
+
+```python
+# Le paramètre nommé `end` permet de modifier la fin du print qui utilise habituellement un saut de ligne
+print('One', end=' ')
+print('Two', end=' ')
+print('Three')
+```
+
+## Modules fournis
+* Plusieurs modules sont fournis et nous verrons qu'il existe un très grand écosystème de module pouvant nous faciliter la création de nos programmes.
+* Par exemple, le module `math` nous donne plusieurs fonctions mathématiques communes.
+* Pour savoir lesquelles et leurs utilisations, il faut consulter leur documentation;
+  * https://docs.python.org/3/library/math.html
+
+
+```python
+import math # La commande import peut être fait une fois au début du projet/notebook
+
+reponse = math.sqrt(45)
+```
+
+
+```python
+# Il est aussi possible de renommé une importation pour facilité son utilisation
+import math as m
+
+reponse = m.sqrt(45)
+
+# Ou encore de seulement importer une fonction précise sans avoir de préfixe
+from math import sqrt
+reponse = sqrt(12)
+```
+
 ## Fonctions
 * Les fonctions sont des séries d'instructions contenues dans un ensemble pouvant être facilement re-utilisé. Par convention, la fonction doit faire une tâche simple et précise;
 * Contrairement aux scripts, les fonctions n'auront pas de saisit avec `input` et pas d'affichage avec `print`. Cela à moins d'être expressément demandé.
@@ -97,31 +143,3 @@ print('La valeur de x,y et z sont :', x, y, z)
 * Une variable globale permet de lier une variable de l’espace de travail normal à l’espace de travail d’une fonction;
 * La variable est déclarée comme globale dans l’espace de travail principal du script;
 * Sauf avis contraire, l’utilisation de variable globale est **interdite** dans le cours.
-
-## Modules
-* Plusieurs fichiers de python avec différentes fonctions peuvent interagir entre eux. Chaque fichier créé est considéré comme étant un module qu'on peut importer dans pour nos programmes;
-* La commande `import` permet d’importer les fonctions d'un autre fichier;
-* Le nom du module est le nom du fichier sans son extension `.py`;
-* L'utilisation des fonctions du module importer devra être précédée du nom du module et un point.
-
-```python
-import mon_module # Du fichier mon_module.py
-
-# Appel de la fonction du module importé.
-mon_module.ma_fonction(4, 5)
-```
-
-## Modules fournis
-* Plusieurs modules sont fournis et nous verrons qu'il existe un très grand écosystème de module pouvant nous faciliter la création de nos programmes.
-* Par exemple, le module `math` nous donne plusieurs fonctions mathématiques communes.
-* Pour savoir lesquelles et leurs utilisations, il faut consulter leur documentation;
-  * https://docs.python.org/3/library/math.html
-
-```python
-import math
-
-reponse = math.sqrt(45)
-```
-
-## Exercice 3
-* Écrivez une fonction qui reçoit la base et hauteur et retourne la valeur de l'angle adjacent à la base d'un triangle isocèle.

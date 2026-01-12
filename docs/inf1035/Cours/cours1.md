@@ -12,23 +12,24 @@ sidebar_position: 1
 
 ## Programmation
 * Language du cours : Python 3
-* Environement de dévelopment : repl.it
-* Deux méthodes d'utilisation
-  * Interactive REPL (Read-Evaluate-Print-Loop)
-  * Scripts
+* Environement de dévelopment
+    * Google Collab https://colab.research.google.com/
+    * PyCharm
+    * Anaconda / Jupyter - https://www.anaconda.com/products/individual
 
-## Python REPL
-* Utile pour tester des concepts rapidement
-* Ne pas utiliser pour construire un programme
-* Affiche la réponse de chaque évaluation saisie et boucle pour un nouvelle saisie
+## Anaconda / Jupyter Notebook / Google Collab
+* Les notebooks sont un environnement de travail pour les sciences de la données.
+* L'application permet la gestion et configuration de plusieurs plateformes des scienses de la donnée basé sur Python, R et d'autres.
+* La majorité du travail en Python se fait à l'intérieur de Notebooks qui permet de mélangé documentation, code et visualisation dans un seul fichier. Ce fichier à l'extension `.ipynb` pour `Interactive PYthon NoteBook`. Ce fichier peut être lu par une panoplie d'application.
+* Dans notre cas, Google Collab est conseiller pour la session. Celui-ci offre en environnement de notebook en infonuagique. Il existe aussi d'autres applications permettant de lire les Python notebook :
+    * PyCharm
+    * Datalore
+    * VS Code
+    * Jupyter Labs/ Notebook (anciennce version de Jupyter Labs)
 
-## Scripts
-L'unité de base d'un programme en python est le script.
-
-* Fichier texte
-* Extension .py
-* Contient les instructions de notre programme
-* Exécuté par l'interpréteur de python de manière séquentielle
+# Markdown
+* Pour la documentation, la format Markdown est utilisé. Celui-ci utilise des balises pour avoir un formatage facile et conviviale qui est initiallement en format texte.
+* Veuillez vous référé à la [Documentation de Markdown](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html) pour l'utilisation des différentes balises du format.
 
 ## Affichage avec la fonction `print`
 * L'affichage de texte utilise la fonction `print` pour présenter une chaine de caractères dans la fenêtre de commande.
@@ -67,8 +68,16 @@ print('Une ligne\net une autre')
 print (3 + 6) # print peut aussi afficher le résultat d'une expression
 ~~~
 
-## **Exercice 1**
+## **Exemple 1**
 * Écrivez un script qui calcule un salaire hebdomadaire à partir d’un nombre d’heures travaillées et un salaire horaire.
+
+```python
+# Calcul du salaire
+# hebdomadaire d'une personne.
+
+print("Mon salaire hebdomadaire")
+print(6 * 20.5)
+```
 
 ## Variables et instruction d'assignation
 * Une variable est la combinaison d’un espace mémoire réservé, un identificateur et une valeur;
@@ -108,9 +117,27 @@ nomVariable = nomVariable + 5 + nomVariable + \
 * Faites attention! Pour python, les majuscules et minuscules sont des caractères différents;
 * Par convention, `camelCase`.
 
-## **Exercice 2**
+## **Exemple 2**
 * Écrivez un script qui calcule un salaire hebdomadaire à partir d’un nombre d’heures travaillées et un salaire horaire. Affichez le salaire brut ainsi que le salaire net après 15% de taxes.
 * Utilisez des variables pour le nombre d’heures travaillées, le salaire horaire, le salaire brut et le salaire net.
+
+
+```python
+# Données initiales
+heuresTravailler = 18
+tauxHoraire = 45
+
+# Calcul du salaire Brut
+salaireHebdomadaireBrut = heuresTravailler * tauxHoraire
+print("Mon salaire hebdomadaire brut")
+print(salaireHebdomadaireBrut)
+
+# Calcul du salaire net
+tauxImposition = 0.15
+salaireHebdomadaireNet = salaireHebdomadaireBrut - salaireHebdomadaireBrut * tauxImposition
+print("Mon salaire hebdomadaire net")
+print(salaireHebdomadaireNet)
+```
 
 ## Type de données
 * Quatre types de données seront rencontrés généralement durant ce cours:
@@ -134,10 +161,28 @@ saisi = int(input('Texte à afficher à la saisie: '))
 saisiChaine = input('Texte à afficher: ')
 ~~~
 
-## **Exercice 3**
+## **Exemple 3**
 * Écrivez un script qui calcule un salaire hebdomadaire à partir d’un nombre d’heures travaillées et un salaire horaire;
 * Faites-la saisie du nombre d’heures travaillées et du salaire horaire au clavier;
 * Afficher un message d’information avant d’afficher le salaire.
+
+```python
+
+# Saisit des données initiales
+heuresTravailler = float(input("Entrez le nombre d'heures travailler : "))
+tauxHoraire = float(input("Entrez le nombre taux horaire : "))
+
+# Calcul du salaire Brut
+salaireHebdomadaireBrut = heuresTravailler * tauxHoraire
+print("Mon salaire hebdomadaire brut")
+print(salaireHebdomadaireBrut)
+
+# Calcul du salaire net
+tauxImposition = 0.18
+salaireHebdomadaireNet = salaireHebdomadaireBrut - salaireHebdomadaireBrut * tauxImposition
+print("Mon salaire hebdomadaire net")
+print(salaireHebdomadaireNet)
+```
 
 ## Affichage d'expression avec `print`
 * `print` a la possibilité d'afficher l'évaluation d'une expression;
@@ -164,7 +209,25 @@ print('Chiffre' , x,
 | `\"` | Affiche un guillemet double
 | `\\` | Affiche un backslash
 
-## **Exercice 4**
+## **Exemple 4**
 * Écrivez un script qui calcule un salaire hebdomadaire à partir d’un nombre d’heures travaillées et un salaire horaire.
 * Faites-la saisie du nombre d’heures travaillées et du salaire horaire au clavier.
 * Afficher un message avec le salaire net.
+
+
+```python
+# Saisit des données initiales
+heuresTravailler = float(input("Entrez le nombre d'heures travailler : "))
+tauxHoraire = float(input("Entrez le nombre taux horaire : "))
+
+# Calcul du salaire Brut
+salaireHebdomadaireBrut = heuresTravailler * tauxHoraire
+
+# Calcul du salaire net
+tauxImposition = 0.18
+salaireHebdomadaireNet = salaireHebdomadaireBrut - salaireHebdomadaireBrut * tauxImposition
+
+# Affichage final
+print("Mon salaire hebdomadaire brut est", salaireHebdomadaireBrut, 
+      "et mon salaire net est", salaireHebdomadaireNet)
+```
