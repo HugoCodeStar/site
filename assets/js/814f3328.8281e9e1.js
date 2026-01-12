@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhugo_code_star_site=self.webpackChunkhugo_code_star_site||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/site/blog/welcome"},{"title":"Hello","permalink":"/site/blog/hello-world"},{"title":"Hola","permalink":"/site/blog/hola"}]}')}}]);
