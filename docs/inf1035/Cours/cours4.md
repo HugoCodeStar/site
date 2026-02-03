@@ -142,7 +142,7 @@ print(max(x)) # Affiche 10
 
 | Fonction            | Description                                                      |
 |---------------------|------------------------------------------------------------------|
-| append(index)       | Ajoute un élément à la fin de la liste.                          |
+| append(item)        | Ajoute un élément à la fin de la liste.                          |
 | index(item)         | Retourne l'indice du premier élément trouvé dans la liste.       |
 | insert(index, item) | Insère `item` à la position `index`. Décale les autres éléments. |
 | sort()              | Tri la liste de manière croissante.                              |
