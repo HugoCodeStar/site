@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhugo_code_star_site=globalThis.webpackChunkhugo_code_star_site||[]).push([[1878],{8319(s){s.exports=JSON.parse('{"allTagsPath":"/site/blog/tags","slug":"/site/blog/tags/facebook","name":"facebook","count":1,"permalink":"/site/blog/tags/facebook"}')}}]);

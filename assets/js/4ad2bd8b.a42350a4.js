@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhugo_code_star_site=globalThis.webpackChunkhugo_code_star_site||[]).push([[2020],{7711(s){s.exports=JSON.parse('{"allTagsPath":"/site/blog/tags","slug":"/site/blog/tags/hello","name":"hello","count":2,"permalink":"/site/blog/tags/hello"}')}}]);
