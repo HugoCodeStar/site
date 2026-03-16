@@ -80,6 +80,47 @@ Côté,Isabelle,23,88
 * Calculer la moyenne d'âge des étudiants
 * Trouver l'étudiant avec la meilleure note
 
+### Solution
+
+```python
+import csv
+
+etudiants = []
+
+with open("etudiants.csv", mode="r", encoding="utf-8") as fichier_csv:
+    lecteur = csv.DictReader(fichier_csv)
+
+    for ligne in lecteur:
+        # Conversion des types
+        ligne["age"] = int(ligne["age"])
+        ligne["note"] = int(ligne["note"])
+        etudiants.append(ligne)
+
+# Afficher tous les étudiants ayant une note supérieure à 80
+print("\nÉtudiants ayant une note supérieure à 80 :")
+for etudiant in etudiants:
+    if etudiant["note"] > 80:
+        print(f'{etudiant["prenom"]} {etudiant["nom"]} - note : {etudiant["note"]}')
+
+# Calculer la moyenne d'âge des étudiants
+somme_ages = 0
+for etudiant in etudiants:
+    somme_ages += etudiant["age"]
+
+moyenne_age = somme_ages / len(etudiants)
+print(f"\nMoyenne d'âge des étudiants : {moyenne_age:.2f}")
+
+# Trouver l'étudiant avec la meilleure note
+meilleur_etudiant = etudiants[0]
+
+for etudiant in etudiants:
+    if etudiant["note"] > meilleur_etudiant["note"]:
+        meilleur_etudiant = etudiant
+
+print("\nÉtudiant avec la meilleure note :")
+print(f'{meilleur_etudiant["prenom"]} {meilleur_etudiant["nom"]} - note : {meilleur_etudiant["note"]}')
+```
+
 ## Exercice de lecture de fichier JSON
 
 Vous avez un fichier bibliotheque.json contenant une liste de livres :
@@ -113,3 +154,36 @@ Vous avez un fichier bibliotheque.json contenant une liste de livres :
 * Afficher tous les livres disponibles
 * Ajouter un nouveau livre à la collection
 * Sauvegarder les modifications dans le fichier
+
+### Solution
+
+```python
+import json
+
+with open("bibliotheque.json", mode="r", encoding="utf-8") as fichier_json:
+    bibliotheque = json.load(fichier_json)
+
+# Afficher tous les livres disponibles
+print("\nLivres disponibles :")
+for livre in bibliotheque["livres"]:
+    if livre["disponible"]:
+        print(f'- {livre["titre"]} de {livre["auteur"]} ({livre["annee"]})')
+
+# Ajouter un nouveau livre à la collection
+nouveau_livre = {
+    "titre": "Les Misérables",
+    "auteur": "Victor Hugo",
+    "annee": 1862,
+    "disponible": True
+}
+
+bibliotheque["livres"].append(nouveau_livre)
+
+print("\nNouveau livre ajouté :")
+print(f'- {nouveau_livre["titre"]} de {nouveau_livre["auteur"]} ({nouveau_livre["annee"]})')
+
+# Sauvegarder les modifications dans le fichier
+with open("bibliotheque.json", mode="w", encoding="utf-8") as fichier_json:
+    json.dump(bibliotheque, fichier_json, ensure_ascii=False, indent=2)
+
+```
