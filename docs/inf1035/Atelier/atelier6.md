@@ -100,6 +100,7 @@ with open("etudiants.csv", mode="r", encoding="utf-8") as fichier_csv:
 print("\nÉtudiants ayant une note supérieure à 80 :")
 for etudiant in etudiants:
     if etudiant["note"] > 80:
+        # Les f-format string permettent d'avoir des évaluations à l'intérieur de leurs accoladdes.
         print(f'{etudiant["prenom"]} {etudiant["nom"]} - note : {etudiant["note"]}')
 
 # Calculer la moyenne d'âge des étudiants
@@ -167,6 +168,7 @@ with open("bibliotheque.json", mode="r", encoding="utf-8") as fichier_json:
 print("\nLivres disponibles :")
 for livre in bibliotheque["livres"]:
     if livre["disponible"]:
+        # Les f-format string permettent d'avoir des évaluations à l'intérieur de leurs accoladdes.
         print(f'- {livre["titre"]} de {livre["auteur"]} ({livre["annee"]})')
 
 # Ajouter un nouveau livre à la collection
@@ -178,9 +180,6 @@ nouveau_livre = {
 }
 
 bibliotheque["livres"].append(nouveau_livre)
-
-print("\nNouveau livre ajouté :")
-print(f'- {nouveau_livre["titre"]} de {nouveau_livre["auteur"]} ({nouveau_livre["annee"]})')
 
 # Sauvegarder les modifications dans le fichier
 with open("bibliotheque.json", mode="w", encoding="utf-8") as fichier_json:
