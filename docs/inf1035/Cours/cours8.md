@@ -116,6 +116,33 @@ ma_liste = list(cur)
 res = cur.fetchall()
 ```
 
+
+### Connexion à des bases de données SQL / SQLite
+
+Les connexions de pandas à des bases de données se font par l'intermédiaire de `SQLAlchemy`, une librairie de Python pour la connexion à des BD SQL. Il faut donc établir un engin de connexion qui sera utilisé par la fonction de lecture/écriture.
+
+```python
+from sqlalchemy import create_engine, text
+
+# SQLite peut exister dans la mémoire avec :memory: ou on peut lire un fichier existant
+engine = create_engine("sqlite:///SQLiteBD.db")
+
+df = pd.read_sql_table('TableName', engine)
+
+# Il est aussi possible de recevoir le résultat d'une requête spécifique
+df2 = pd.read_sql(text('select * from TableName where param > 0'), engine)
+```
+
+L'engin de connexion doit avoir l'URL de la base de données. Vous pouvez avoir la liste des [connexions disponible ici](https://docs.sqlalchemy.org/en/14/core/engines.html#database-urls).
+
+```python
+# Exemple de connection avec une base de donnée postgres
+engine1 = create_engine('postgresql://username:password@server/databasename')
+conn = engine1.connect()
+df = pd.read_sql_table('TableName', conn)
+```
+
+
 ## Visualisation avec `matplotlib`
 
 La librairie `matplotlib` est une librairie de visualisation basée sur les graphiques disponibles sous le logiciel et langages de programmation MATLAB. Cette librairie permet de construire des graphiques qui vont nous permettre de visualiser les données sur lesquelles nous avons travaillé.
