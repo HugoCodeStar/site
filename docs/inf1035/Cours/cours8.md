@@ -4,7 +4,66 @@ sidebar_label: 8 - SQL et visualisation
 sidebar_position: 8
 ---
 
-# But
+## Autres types de fichiers
+
+## Fichier Excel
+
+Excel est un tableur qui permet d'avoir des informations dans des feuilles de calculs qui sont ensuite séparées par des cellules identifiées par une ligne et une colonne.
+
+## Fichier SQLite
+
+* [SQLite](https://sqlite.org/index.html) est une implémentation d'une base de données SQL à l'intérieur d'un fichier.
+* Cette implémentation est une version extrêmement simplifiée de ce que nous donne une SGBD mais permet de facilement transmettre de l'information sous forme de tables.
+
+### Types des colonnes
+
+* NULL - Valeur nulle.
+* INTEGER - Entier signé.
+* REAL - Valeur flottante.
+* TEXT - Texte.
+* BLOB - Donnée indéfinie.
+
+## Requêtes web vers des API REST
+
+* Une méthode courante d'acquisition de données est l'utilisation d'API (Application Programming Interface) de type REST.
+* Cette méthode permet de faire une requête à un site web avec des paramètres donnés et de recevoir une réponse en JSON.
+
+#### Librairie requests
+
+* Pour faire des requêtes WEB avec python, la librairie [request](https://docs.python-requests.org/en/master/) est utilisée.
+
+```python
+# import requests module
+import requests
+  
+# Making a get request
+response = requests.get('https://api.github.com')
+  
+# print response
+print(response)
+  
+# print json content
+print(response.json())
+```
+
+#### Les requêtes web et les règles du REST
+
+* Le principe des requêtes REST est d'avoir les paramètres dans l'URL qui est utilisée pour faire la requête.
+* Le chemin de l'application permet de recevoir seulement l'information voulue.
+
+#### Exemple avec JSONPlaceholder
+
+* [JSONPlaceholder](https://jsonplaceholder.typicode.com/) est un site simple avec un API REST qui peut être utilisé pour tester nos requêtes.
+
+#### Routes
+
+* Les différents chemins sont nommés routes et ceux-ci font partie d'une arborescence.
+* Par exemple, JSONPlaceholder à les routes suivantes :
+    * `/posts` vers tous les articles sauvegardés
+    * `/posts/1` le nombre 1 permet de sélectionner un article en particulier
+    * `/posts/1/comments` la continuation de la route avec `comments` permet d'aller chercher les commentaires de l'article spécifié.
+
+## Base de données SQL
 
 * Un langage de requête qui permet de faire des requêtes complexes sans avoir beaucoup de logique programmable à faire.
 * Le Structured Query Language (SQL) est le langage utilisé pour communiqué avec les bases de données.
