@@ -21,10 +21,10 @@ sidebar_label: 4 - Chemin, validation, tableaux
 * Il existe plusieurs méthode de modifier les dossiers dans le chemin d'accès:
     * Le premier est automatique si on utilise un fichier qui n'est pas dans le chemin d'accès. MATLAN nous donne l'option de rajouté le dossier dans le chemin d'accès; 
 
-    ![Dialogue add to path](diagaddpath.png){width=200px}
+    ![Dialogue add to path](diagaddpath.png)
     * À partir du dossier courant, l'option contextuelle "Add to path" est disponible pour rajouter un dossier;
 
-    ![Menu contextuelle add to path](contextaddpath.png){width=50%}
+    ![Menu contextuelle add to path](contextaddpath.png)
     * La dernière option est à l'intérieur de nos programmes, la fonction `addpath` nous permet de rajouter des dossier avant de le utiilsé dans un programme d'envergure.
 
 ## Dossier de tests

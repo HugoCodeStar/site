@@ -85,7 +85,7 @@ module.exports = {
             },
             {
               label: 'B07',
-              to: 'docs/B07'
+              to: 'docs/b07'
             },
             {
               label: 'INF5111',
@@ -154,11 +154,7 @@ module.exports = {
           editUrl:
             'https://github.com/HugoCodeStar/site/edit/master/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/HugoCodeStar/site/edit/master/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

@@ -1,7 +1,7 @@
 ---
 title: Introduction
 sidebar_label: Intro
-slug: /B07
+slug: /b07
 ---
 ## Présentation personnelle
 

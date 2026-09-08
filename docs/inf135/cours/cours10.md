@@ -121,7 +121,7 @@ end
 * On peut remplacer des méthodes de fonctions qui existent déjà dans MATLAB.
 * La redéfinition remplace l’utilisation normale des fonctions par notre implémentation.
 * La redéfinition est habituellement utilisée pour le constructeur, les fonctions arithmétiques (plus, minus, mddivide) et les fonctions de comparaison (eq, gt, lt, le, ge, ne).
-Cela permet de faire de la comparaison directe sur les objets avec les opérateurs habituels ( ==, >, <, <=, >=, ~=).
+Cela permet de faire de la comparaison directe sur les objets avec les opérateurs habituels (`==`, `>`, `<`, `<=`, `>=`, `~=`).
 * On remplace souvent la fonction `char` et `disp` pour prendre le contrôle de l'affichage des objets.
 
 ## Exemple de la redéfinition de l'affichage
