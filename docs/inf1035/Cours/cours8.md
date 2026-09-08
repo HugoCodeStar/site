@@ -10,6 +10,8 @@ sidebar_position: 8
 
 Excel est un tableur qui permet d'avoir des informations dans des feuilles de calculs qui sont ensuite séparées par des cellules identifiées par une ligne et une colonne.
 
+
+
 ## Fichier SQLite
 
 * [SQLite](https://sqlite.org/index.html) est une implémentation d'une base de données SQL à l'intérieur d'un fichier.
@@ -79,6 +81,32 @@ Les informations d'une base de données sont regroupées en plusieurs tables de 
 * REAL - Valeur flottante.
 * TEXT - Texte.
 * BLOB - Donnée indéfinie.
+
+### Éléments d'une base de données relationnels
+
+#### Table/Relation
+
+L'élément principal est la table (relation). Celle-ci consiste d'un schéma (description) de différentes colonnes (attributs) qui pourront être inscrites dans la table. Elle peut aussi avoir des règles additionnelles pour des contraintes ou des caractéristiques de performances (index).
+
+#### Ligne/Tuple/Enregistrement
+
+Les tables reçoivent des informations sous forme de ligne (enregistrement). Ceux-ci contiennent les informations des colonnes de la table. Chaque colonne (attribut) est spécifiée dans le schéma de la table.
+
+#### Colonne/Attribut/Champ
+
+La table est composée de colonnes (attribut). Chaque colonne est identifiée par un nom, un type de données et d'autre spécificité (contraintes).
+
+![Exemple Table](./table.gif)
+
+#### Clé primaire (Primary key `PK`)
+
+Chaque table aura une clé primaire qui sera utilisée pour désigner chaque ligne d'une table de manière unique. La clé primaire est habituellement une colonne ou plusieurs colonnes.
+
+#### Clé étrangère (Foreign key `FK`)
+
+Certaines colonnes d'une table peuvent être identifiées comme clé étrangère. Ceux-ci désignent la clé primaire d'une autre table. Cette identification permet de relier les informations d'une table à une autre.
+
+![Exemple Relation](./pkfk.png)
 
 # Création de tables
 
