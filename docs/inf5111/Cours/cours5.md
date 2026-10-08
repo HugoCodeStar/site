@@ -160,6 +160,8 @@ L'engin de connexion doit avoir l'URL de la base de données. Vous pouvez avoir 
 
 ```python
 # Exemple de connection avec une base de donnée postgres
+# Google collab à besoin de cette bibliothèque pour Postgres
+!pip install psycopg
 conn = create_engine('postgresql://username:password@server/databasename')
 df = pd.read_sql_table('TableName', conn)
 ```
